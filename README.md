@@ -87,11 +87,16 @@ npm run serve      # open http://localhost:5050
 ```
 
 ### Option B — one free public link via Render (a URL friends just click)
-1. Push this repo to GitHub (done).
-2. Sign in to **https://render.com** with your GitHub account (free).
-3. **New + → Blueprint**, pick the `stock_scanner` repo, click **Apply**.
-   (Render reads `render.yaml` and runs `node server.js` for you.)
-4. You get a public `https://stock-scanner-xxxx.onrender.com` link — share it.
+
+**One-click:** [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/narendra0467/stock_scanner)
+
+Click the button → sign in to Render with GitHub (free) → **Apply**. Render reads `render.yaml`,
+runs `node server.js`, and gives you a public `https://stock-scanner-xxxx.onrender.com` link to share.
+
+Or do it manually:
+1. Sign in to **https://render.com** with your GitHub account (free).
+2. **New + → Blueprint**, pick the `stock_scanner` repo, click **Apply**.
+3. Wait ~2 min for the first build; copy the `.onrender.com` URL and send it to your friends.
 
 > Render's **free tier sleeps after ~15 min idle**, so the first visit after a quiet period takes
 > ~30–60s to wake up, then it's fast. Perfectly fine for a handful of friends learning. Other
