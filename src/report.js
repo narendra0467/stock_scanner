@@ -164,19 +164,19 @@ export function renderHtml(f, scored, narrative, generatedAt) {
   body { font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--ink);
          margin:0; padding:26px 18px 60px; line-height:1.5; min-height:100vh; position:relative;
          background:
-           radial-gradient(1100px 520px at 8% -8%, rgba(79,140,255,.16), transparent 55%),
-           radial-gradient(950px 480px at 108% 4%, rgba(62,207,107,.14), transparent 52%),
-           radial-gradient(800px 700px at 50% 120%, rgba(124,92,255,.10), transparent 60%),
-           linear-gradient(180deg, #eef2f8 0%, #f5f7fb 40%, #eef1f7 100%); }
+           radial-gradient(1100px 520px at 8% -8%, rgba(139,92,246,.18), transparent 55%),
+           radial-gradient(950px 480px at 108% 4%, rgba(236,72,153,.14), transparent 52%),
+           radial-gradient(800px 700px at 50% 120%, rgba(251,146,60,.13), transparent 60%),
+           linear-gradient(180deg, #f1eefb 0%, #f6f4fc 40%, #f0eef8 100%); }
   /* faint chart-line watermark across the whole page */
-  body::before { content:''; position:fixed; inset:0; z-index:0; pointer-events:none; opacity:.5;
-    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='300'><polyline points='0,260 120,230 240,250 360,180 480,205 600,120 720,150 840,80 960,110 1080,40 1200,70' fill='none' stroke='%234f8cff' stroke-width='3' stroke-opacity='0.10'/><polyline points='0,280 120,270 240,275 360,255 480,262 600,240 720,250 840,225 960,235 1080,210 1200,225' fill='none' stroke='%233ecf6b' stroke-width='3' stroke-opacity='0.08'/></svg>");
+  body::before { content:''; position:fixed; inset:0; z-index:0; pointer-events:none; opacity:.55;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='300'><polyline points='0,260 120,230 240,250 360,180 480,205 600,120 720,150 840,80 960,110 1080,40 1200,70' fill='none' stroke='%238b5cf6' stroke-width='3' stroke-opacity='0.12'/><polyline points='0,280 120,270 240,275 360,255 480,262 600,240 720,250 840,225 960,235 1080,210 1200,225' fill='none' stroke='%23ec4899' stroke-width='3' stroke-opacity='0.09'/></svg>");
     background-repeat:no-repeat; background-position:center 70%; background-size:140% auto; }
   .sheet { position:relative; z-index:1; max-width:920px; margin:0 auto; background:#fff;
            border-radius:18px; box-shadow:0 18px 50px rgba(23,42,80,.12), 0 2px 8px rgba(23,42,80,.06);
            padding:34px 32px 56px; overflow:hidden; }
   .sheet::before { content:''; position:absolute; top:0; left:0; right:0; height:6px;
-                   background:linear-gradient(90deg, ${color}, #4f8cff 55%, #3ecf6b); }
+                   background:linear-gradient(90deg, #8b5cf6 0%, #ec4899 55%, #fb923c 100%); }
   .pdfbtn { position:fixed; top:16px; right:18px; z-index:10; background:${color}; color:#fff; border:0; padding:10px 16px;
             border-radius:10px; font-weight:700; font-size:13px; cursor:pointer; box-shadow:0 4px 14px rgba(0,0,0,.2); }
   header { display:flex; justify-content:space-between; align-items:flex-end; gap:16px;
