@@ -73,6 +73,32 @@ Set a different port with `PORT=8080 npm run serve`.
 
 ---
 
+## 🌐 Share it with friends (free)
+
+This app needs a small **Node server** (it fetches Yahoo data server-side — browsers can't call
+Yahoo directly), so plain GitHub Pages can't host it. Two free ways to share:
+
+### Option A — friends run it locally (simplest, fully free, no signup)
+```bash
+git clone https://github.com/narendra0467/stock_scanner.git
+cd stock_scanner
+npm install
+npm run serve      # open http://localhost:5050
+```
+
+### Option B — one free public link via Render (a URL friends just click)
+1. Push this repo to GitHub (done).
+2. Sign in to **https://render.com** with your GitHub account (free).
+3. **New + → Blueprint**, pick the `stock_scanner` repo, click **Apply**.
+   (Render reads `render.yaml` and runs `node server.js` for you.)
+4. You get a public `https://stock-scanner-xxxx.onrender.com` link — share it.
+
+> Render's **free tier sleeps after ~15 min idle**, so the first visit after a quiet period takes
+> ~30–60s to wake up, then it's fast. Perfectly fine for a handful of friends learning. Other
+> equivalent free hosts that run Node also work (Glitch, Fly.io, Railway trial).
+
+---
+
 ## How the score works (v2 — sector-relative engine)
 
 The scoring is deliberately closer to how an analyst actually thinks, not a one-size ruler:

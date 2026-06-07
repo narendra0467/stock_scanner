@@ -1,0 +1,13 @@
+# Render.com Blueprint — free hosting for the stock-scanner dashboard.
+# After pushing to GitHub: sign in to https://render.com with GitHub →
+# New + → Blueprint → pick this repo → Apply. Render reads this file and
+# deploys a free web service that runs `node server.js` and gives you a
+# public https://<name>.onrender.com URL to share.
+services:
+  - type: web
+    name: stock-scanner
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    autoDeploy: true
