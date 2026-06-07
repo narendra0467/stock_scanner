@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Stock Scanner — Dashboard</title>
+<style>
+  :root {
+    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --line:#2a2f3a;
+    --ink:#e8eaed; --muted:#9aa0ab; --accent:#4f8cff;
+    --strong:#3ecf6b; --good:#7bd88f; --neutral:#e7c44d; --weak:#f0a14b; --poor:#f0584b;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+         background:var(--bg); color:var(--ink); }
+  header { padding:18px 26px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:14px;
+           position:sticky; top:0; background:var(--bg); z-index:5; }
+  header h1 { font-size:18px; margin:0; letter-spacing:.3px; }
+  header .tag { font-size:11px; color:var(--muted); border:1px solid var(--line); padding:2px 8px; border-radius:20px; }
+  .wrap { max-width:1080px; margin:0 auto; padding:22px 26px 60px; }
+  .searchbar { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:8px; }
+  input[type=text] { flex:1; min-width:220px; background:var(--panel2); border:1px solid var(--line); color:var(--ink);
+         padding:12px 14px; border-radius:10px; font-size:15px; outline:none; }
+  input[type=text]:focus { border-color:var(--accent); }
+  button { background:var(--accent); color:#fff; border:0; padding:12px 18px; border-radius:10px; font-size:14px;
+           font-weight:600; cursor:pointer; }
+  button.ghost { background:var(--panel2); color:var(--ink); border:1px solid var(--line); }
+  button:hover { filter:brightness(1.08); }
+  .hint { color:var(--muted); font-size:12px; margin-bottom:18px; }
+  .status { color:var(--muted); font-size:14px; padding:10px 0; }
+  .status.err { color:var(--poor); }
+  .chips { display:flex; gap:8px; flex-wrap:wrap; margin:6px 0 18px; }
+  .chip { background:var(--panel2); border:1px solid var(--line); border-radius:20px; padding:4px 12px; font-size:13px;
+          cursor:pointer; color:var(--muted); }
+  .chip:hover { color:var(--ink); border-color:var(--accent); }
+
+  /* compare table */
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:6px 4px; margin-bottom:22px;
+           overflow:hidden; }
+  table { width:100%; border-collapse:collapse; font-size:13.5px; }
+  th { text-align:left; color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.5px;
+       padding:10px 12px; border-bottom:1px solid var(--line); }
+  td { padding:11px 12px; border-bottom:1px solid var(--line); }
+  tr:last-child td { border-bottom:0; }
+  tr.row { cursor:pointer; }
+  tr.row:hover td { background:var(--panel2); }
+  .score-pill { display:inline-block; min-width:34px; text-align:center; font-weight:700; padding:2px 8px; border-radius:8px;
+                color:#0d0f13; }
+  .v-strong{background:var(--strong)} .v-good{background:var(--good)} .v-neutral{background:var(--neutral)}
+  .v-weak{background:var(--weak)} .v-poor{background:var(--poor)} .v-na{background:#666;color:#fff}
+  .num { font-variant-numeric:tabular-nums; }
+  .muted { color:var(--muted); }
+  .remove { color:var(--muted); cursor:pointer; font-weight:700; }
+  .remove:hover { color:var(--poor); }
+  .section-title { font-size:13px; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; margin:4px 2px 8px; }
+
+  /* report iframe */
+  .report-shell { background:#fff; border-radius:14px; overflow:hidden; border:1px solid var(--line); }
+  iframe { width:100%; border:0; display:block; background:#fff; }
+  .toolbar { display:flex; justify-content:space-between; align-items:center; margin:0 2px 8px; }
+  .toolbar a { color:var(--accent); font-size:13px; text-decoration:none; }
+  .hidden { display:none; }
+  .disclaimer { margin-top:30px; font-size:11px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📊 Stock Scanner</h1>
+  <span class="tag">NASDAQ + TSX · free · local</span>
+</header>
+
+<div class="wrap">
+  <div class="searchbar">
+    <input id="ticker" type="text" placeholder="Enter a ticker — e.g. MU, NVDA, SHOP.TO …" autofocus />
+    <button id="goBtn">Report</button>
+    <button id="addBtn" class="ghost">+ Compare</button>
+  </div>
+  <div class="hint">TSX names need the <b>.TO</b> suffix (e.g. <code>SHOP.TO</code>, <code>RY.TO</code>). Press Enter to run.</div>
+
+  <div class="chips" id="chips"></div>
+
+  <div id="status" class="status"></div>
+
+  <div id="compareWrap" class="hidden">
+    <div class="section-title">Comparison</div>
+    <div class="panel"><table id="compareTable"></table></div>
+  </div>
+
+  <div id="reportWrap" class="hidden">
+    <div class="toolbar">
+      <div class="section-title" id="reportTitle">Report</div>
+      <div style="display:flex;gap:14px;align-items:center">
+        <button id="pdfBtn" class="ghost" style="padding:7px 14px">⬇ Export PDF</button>
+        <a id="openTab" href="#" target="_blank">Open in new tab ↗</a>
+      </div>
+    </div>
+    <div class="report-shell"><iframe id="report" title="report"></iframe></div>
+  </div>
+
+  <div class="disclaimer">
+    Educational / informational only — not financial advice. Data via Yahoo Finance (unofficial; may be delayed or incomplete).
+  </div>
+</div>
+
+<script>
+const SAMPLES = ['MU','NVDA','AAPL','MSFT','GOOG','SHOP.TO','RY.TO'];
+const compare = new Map(); // ticker -> report json
+
+const $ = (id) => document.getElementById(id);
+const tickerInput = $('ticker');
+
+function setStatus(msg, isErr=false){ const s=$('status'); s.textContent=msg||''; s.className='status'+(isErr?' err':''); }
+
+function tierClass(tier){ return 'v-'+(tier||'na'); }
+
+function renderChips(){
+  $('chips').innerHTML = SAMPLES.map(t=>`<span class="chip" data-t="${t}">${t}</span>`).join('');
+  document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{ tickerInput.value=c.dataset.t; loadReport(); });
+}
+
+async function fetchReport(ticker){
+  const r = await fetch('/api/report?ticker='+encodeURIComponent(ticker));
+  const j = await r.json();
+  if(!r.ok) throw new Error(j.error||('HTTP '+r.status));
+  return j;
+}
+
+async function loadReport(){
+  const t = tickerInput.value.trim().toUpperCase();
+  if(!t) return;
+  setStatus('Fetching '+t+' …');
+  try{
+    // show the rich self-contained HTML report in the iframe
+    const url = '/api/html?ticker='+encodeURIComponent(t);
+    const res = await fetch(url);
+    const html = await res.text();
+    if(!res.ok){ throw new Error(JSON.parse(html).error||('HTTP '+res.status)); }
+    const f = $('report');
+    f.srcdoc = html;
+    f.onload = ()=>{ try{ f.style.height = (f.contentWindow.document.body.scrollHeight+40)+'px'; }catch(e){ f.style.height='1400px'; } };
+    $('reportTitle').textContent = 'Report — '+t;
+    $('openTab').href = url;
+    $('reportWrap').classList.remove('hidden');
+    setStatus('');
+  }catch(e){ setStatus(e.message, true); }
+}
+
+async function addToCompare(){
+  const t = tickerInput.value.trim().toUpperCase();
+  if(!t) return;
+  if(compare.has(t)){ renderCompare(); return; }
+  setStatus('Adding '+t+' …');
+  try{
+    const j = await fetchReport(t);
+    compare.set(t, j);
+    renderCompare();
+    setStatus('');
+  }catch(e){ setStatus(t+': '+e.message, true); }
+}
+
+function fmtPct(x){ return (x==null||!isFinite(x))?'—':(x*100).toFixed(1)+'%'; }
+function fmtPrice(x,cur){ if(x==null)return '—'; const s=cur==='CAD'?'C$':'$'; return s+Number(x).toFixed(2); }
+
+function renderCompare(){
+  const wrap=$('compareWrap'), tbl=$('compareTable');
+  if(compare.size===0){ wrap.classList.add('hidden'); return; }
+  wrap.classList.remove('hidden');
+  const rows=[...compare.values()].sort((a,b)=>(b.scored.overall??-1)-(a.scored.overall??-1));
+  tbl.innerHTML =
+    '<thead><tr><th>Ticker</th><th>Name</th><th class="num">Price</th><th>Score</th>'+
+    '<th class="num">Val</th><th class="num">Health</th><th class="num">Growth</th>'+
+    '<th>Verdict</th><th class="num">Upside</th><th>Analyst</th><th></th></tr></thead><tbody>'+
+    rows.map(r=>{
+      const f=r.facts, s=r.scored, c=s.categories, v=s.verdict;
+      return `<tr class="row" data-t="${f.symbol}">
+        <td><b>${f.symbol}</b></td>
+        <td class="muted">${(f.name||'').slice(0,28)}</td>
+        <td class="num">${fmtPrice(f.price,f.currency)}</td>
+        <td><span class="score-pill ${tierClass(v.tier)}">${s.overall??'—'}</span></td>
+        <td class="num">${c.valuation.score??'—'}</td>
+        <td class="num">${c.health.score??'—'}</td>
+        <td class="num">${c.growth.score??'—'}</td>
+        <td>${v.label}</td>
+        <td class="num">${fmtPct(f.upside)}</td>
+        <td class="muted">${f.recKey?f.recKey.replace(/_/g,' '):'—'}</td>
+        <td class="remove" data-rm="${f.symbol}">✕</td>
+      </tr>`;
+    }).join('')+'</tbody>';
+  tbl.querySelectorAll('tr.row').forEach(tr=>tr.onclick=(e)=>{
+    if(e.target.dataset.rm){ compare.delete(e.target.dataset.rm); renderCompare(); return; }
+    tickerInput.value=tr.dataset.t; loadReport();
+  });
+}
+
+// let the embedded report grow/shrink the iframe when explanations drop down
+window.addEventListener('message', (e)=>{
+  if(e.data && e.data.type==='ss-resize' && e.data.height){ $('report').style.height = (e.data.height+40)+'px'; }
+});
+$('pdfBtn').onclick = ()=>{ const f=$('report'); if(f&&f.contentWindow){ f.contentWindow.focus(); f.contentWindow.print(); } };
+$('goBtn').onclick = loadReport;
+$('addBtn').onclick = addToCompare;
+tickerInput.addEventListener('keydown', e=>{ if(e.key==='Enter') loadReport(); });
+renderChips();
+</script>
+</body>
+</html>

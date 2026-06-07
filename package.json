@@ -1,0 +1,21 @@
+{
+  "name": "stock-scanner",
+  "version": "1.0.0",
+  "description": "Free, shareable fundamental stock report scanner (BDInvesting-style) for NASDAQ + TSX tickers. Data via Yahoo Finance. Educational / informational only.",
+  "type": "module",
+  "main": "cli.js",
+  "bin": {
+    "stock-scanner": "cli.js"
+  },
+  "scripts": {
+    "report": "node cli.js",
+    "serve": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "yahoo-finance2": "^3.15.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
