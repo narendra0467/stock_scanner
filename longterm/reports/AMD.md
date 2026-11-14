@@ -2,12 +2,11 @@
 NasdaqGS · Price $534.06 (2026-11-13) · Market cap $875.91B · 52-wk $188.22-$658.52 (-19% from high)
 
 ```
- BUSINESS VERDICT ........ C  (78/100)  Watch list: promising but unproven
+ BUSINESS VERDICT ........ B  (78/100)  Quality growth / durable business
  VALUATION ............... Expensive (13/100)
  PRICE / TIMING .......... WAIT FOR PULLBACK  (Stage 2: advancing)
- COMBINED ACTION ......... WAIT
+ COMBINED ACTION ......... WAIT FOR $460.34
 ```
-> ⚠ Red flag: Share count grew 36% over 5 years (heavy dilution).
 
 ## 1. The business
 Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. Scanner mode: Semiconductor / hardware. Cyclical. Judged on gross and operating margin through the cycle, inventory, capital intensity, EV/EBITDA and forward P/E.
@@ -28,9 +27,7 @@ Sector: Technology / Semiconductors · Mode: **Semiconductor / hardware** · Key
 | 2025-12-27 | $34.64B | 34.3% | 10.7% | $4.33B | 12.5% | 2.65 | $7.71B | $6.74B | $5.54B | $3.22B | 1636M |
 3-yr revenue CAGR **13.6%** · 5-yr **28.8%** · up 4 of 5 years · profitable 5 of 5 years · FCF positive 5 of 5 years · share count 35.5% over 5 yrs
 
-## 3. Business quality: C (78/100) — Watch list: promising but unproven
-- 🚩 **Red flag:** Share count grew 36% over 5 years (heavy dilution).
-- Grade capped at C by a red flag.
+## 3. Business quality: B (78/100) — Quality growth / durable business
 
 **Growth** — 86/100 (weight 25%)
 | Metric | Value | Ideal | Status | What it means |
@@ -101,9 +98,9 @@ Historical multiples at fiscal year-ends (price / P/E / P/S / P/B / P/FCF):
 | 2023-12-30 | $138.58 | 261.5x | 9.9x | 4.03x | 200.9x |
 | 2024-12-28 | $125.37 | 125.4x | 8.0x | 3.57x | 85.3x |
 | 2025-12-27 | $223.47 | 84.3x | 10.6x | 5.80x | 54.3x |
-**Fair-value range: $302.74 – $462.12** (mid $382.43, -28% vs price). Price is above the fair-value range.
-- Earnings: 17.69 forward EPS x 30-45 P/E for 50% growth → $530.72–$796.08
-- Cash flow: 4.49 FCF/share at a 3.5%-6.0% yield → $74.76–$128.17
+**Fair-value range: $530.72 – $796.08** (mid $663.40, 24% vs price). Price is inside the fair-value range. Methods disagree sharply, so only the earnings-based range is used; treat it with extra caution.
+- Earnings: 17.69 forward EPS x 30-45 P/E for 50% growth → $530.72–$796.08 (primary)
+- Cash flow: 4.49 FCF/share at a 3.5%-6.0% yield → $74.76–$128.17 (cross-check (not blended))
 Analyst context (not a signal): 49 analysts, mean target $657.74, 47 buy / 7 hold / 0 sell.
 
 ## 5. Long-term technicals
@@ -133,7 +130,7 @@ Analyst context (not a signal): 49 analysts, mean target $657.74, 47 buy / 7 hol
 Moving-average levels: 50-day SMA $554.55 (resistance) · 200-day SMA $423.12 (support) · 30-week SMA $508.67 (support) · 40-week SMA $438.46 (support) · 200-week SMA $201.66 (support)
 Fibonacci (retracement of the 3-year advance): 38.2% $436.18 · 50% $367.50 · 61.8% $298.82
 
-## 6. Entry plan: WAIT FOR PULLBACK → **WAIT**
+## 6. Entry plan: WAIT FOR PULLBACK → **WAIT FOR $460.34**
 - Price is 26% above the 200-day average: extended.
 - Leading the index by 148 points over 12 months.
 

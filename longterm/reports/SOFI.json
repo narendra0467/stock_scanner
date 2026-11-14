@@ -5,7 +5,7 @@
   "exchange": "NasdaqGS",
   "currency": "USD",
   "benchmark": "SPY",
-  "asOf": "2026-11-14T04:52:56.867Z",
+  "asOf": "2026-11-14T04:57:28.866Z",
   "priceDate": "2026-11-13",
   "price": 15.42,
   "marketCap": 20012699648,
@@ -31,9 +31,9 @@
   },
   "verdict": {
     "businessGrade": "C",
-    "businessScore": 66,
+    "businessScore": 65,
     "businessLabel": "Watch list: promising but unproven",
-    "valuationScore": 45,
+    "valuationScore": 40,
     "valuationLabel": "Rich",
     "timing": "TREND REPAIR WATCH",
     "timingScore": 20,
@@ -46,99 +46,42 @@
       "entityName": "SoFi Technologies, Inc.",
       "matchedTitle": "SoFi Technologies, Inc."
     },
+    "notes": [
+      "Dropped 3 early fiscal year(s) from before a corporate discontinuity (SPAC/merger/recapitalisation)."
+    ],
     "years": [
       {
-        "year": "2019-12-31",
-        "revenue": 4520000,
+        "year": "2022-12-31",
+        "revenue": 1573535000,
         "revenueGrowth": null,
         "grossMargin": null,
         "operatingMargin": null,
-        "netIncome": -239697000,
-        "netMargin": -53.0303,
-        "eps": -4.02,
-        "operatingCashFlow": -54733000,
-        "freeCashFlow": -92323000,
-        "fcfMargin": -20.4254,
-        "cash": 499486000,
-        "totalDebt": null,
-        "equity": -339062000,
-        "dilutedShares": 65619361,
-        "roe": null,
-        "roa": null,
-        "source": "sec"
-      },
-      {
-        "year": "2020-12-31",
-        "revenue": 103331000,
-        "revenueGrowth": 21.8608,
-        "grossMargin": null,
-        "operatingMargin": null,
-        "netIncome": -224053000,
-        "netMargin": -2.1683,
-        "eps": -4.3,
-        "operatingCashFlow": -479336000,
-        "freeCashFlow": -503885000,
-        "fcfMargin": -4.8764,
-        "cash": 872582000,
-        "totalDebt": 4798925000,
-        "equity": -120115000,
-        "dilutedShares": 73851108,
-        "roe": null,
-        "roa": -0.0262,
-        "source": "sec"
-      },
-      {
-        "year": "2021-12-31",
-        "revenue": 247718000,
-        "revenueGrowth": 1.3973,
-        "grossMargin": null,
-        "operatingMargin": null,
-        "netIncome": -483937000,
-        "netMargin": -1.9536,
-        "eps": -1,
-        "operatingCashFlow": -1350217000,
-        "freeCashFlow": -1402478000,
-        "fcfMargin": -5.6616,
-        "cash": 494711000,
-        "totalDebt": 3947983000,
-        "equity": 4377329000,
-        "dilutedShares": 526730261,
-        "roe": -0.2273,
-        "roa": -0.0527,
-        "source": "sec"
-      },
-      {
-        "year": "2022-12-31",
-        "revenue": 377096000,
-        "revenueGrowth": 0.5223,
-        "grossMargin": null,
-        "operatingMargin": null,
         "netIncome": -320407000,
-        "netMargin": -0.8497,
+        "netMargin": -0.2036,
         "eps": -0.4,
         "operatingCashFlow": -7255858000,
         "freeCashFlow": -7349059000,
-        "fcfMargin": -19.4886,
+        "fcfMargin": -4.6704,
         "cash": 1421907000,
         "totalDebt": 5485882000,
         "equity": 5208102000,
         "dilutedShares": 900886000,
-        "roe": -0.0669,
+        "roe": -0.0615,
         "roa": -0.0169,
         "source": "sec"
       },
       {
         "year": "2023-12-31",
-        "revenue": 421454000,
-        "revenueGrowth": 0.1176,
+        "revenue": 2122789000,
+        "revenueGrowth": 0.3491,
         "grossMargin": null,
         "operatingMargin": null,
         "netIncome": -300742000,
-        "netMargin": -0.7136,
+        "netMargin": -0.1417,
         "eps": -0.36,
         "operatingCashFlow": -7227139000,
         "freeCashFlow": -7338548000,
-        "fcfMargin": -17.4125,
+        "fcfMargin": -3.457,
         "cash": 3085020000,
         "totalDebt": 5362633000,
         "equity": 5234612000,
@@ -149,16 +92,16 @@
       },
       {
         "year": "2024-12-31",
-        "revenue": 503123000,
-        "revenueGrowth": 0.1938,
+        "revenue": 2674859000,
+        "revenueGrowth": 0.2601,
         "grossMargin": null,
         "operatingMargin": null,
         "netIncome": 498665000,
-        "netMargin": 0.9911,
+        "netMargin": 0.1864,
         "eps": 0.39,
         "operatingCashFlow": -1119807000,
         "freeCashFlow": -1274072000,
-        "fcfMargin": -2.5323,
+        "fcfMargin": -0.4763,
         "cash": 2538293000,
         "totalDebt": 3204210000,
         "equity": 6525134000,
@@ -169,16 +112,16 @@
       },
       {
         "year": "2025-12-31",
-        "revenue": 619353000,
-        "revenueGrowth": 0.231,
+        "revenue": 3613354000,
+        "revenueGrowth": 0.3509,
         "grossMargin": null,
         "operatingMargin": null,
         "netIncome": 481320000,
-        "netMargin": 0.7771,
+        "netMargin": 0.1332,
         "eps": 0.39,
         "operatingCashFlow": -3742458000,
         "freeCashFlow": -3984902000,
-        "fcfMargin": -6.434,
+        "fcfMargin": -1.1028,
         "cash": 4929452000,
         "totalDebt": 1934625000,
         "equity": 10489495000,
@@ -189,29 +132,29 @@
       }
     ],
     "summary": {
-      "yearsAvailable": 7,
-      "firstYear": "2019-12-31",
+      "yearsAvailable": 4,
+      "firstYear": "2022-12-31",
       "latestYear": "2025-12-31",
-      "revenueCagr3": 0.1799,
-      "revenueCagr5": 0.4307,
-      "revenueGrowthLatest": 0.231,
-      "revenueUpYears": 5,
-      "revenueYearsWithGrowthData": 5,
+      "revenueCagr3": 0.3193,
+      "revenueCagr5": null,
+      "revenueGrowthLatest": 0.3509,
+      "revenueUpYears": 3,
+      "revenueYearsWithGrowthData": 3,
       "profitableYears": 2,
-      "netIncomeYears": 5,
+      "netIncomeYears": 4,
       "fcfPositiveYears": 0,
-      "fcfYears": 5,
+      "fcfYears": 4,
       "epsCagr3": null,
       "fcfCagr3": null,
       "netIncomeCagr3": null,
       "operatingMarginTrend": null,
       "grossMarginTrend": null,
-      "netMarginTrend": 1.4907,
+      "netMarginTrend": 0.2749,
       "grossMarginStdev": null,
-      "shareChange5y": 15.9499,
-      "shareChangeYears": 5,
+      "shareChange5y": 0.3895,
+      "shareChangeYears": 3,
       "bvpsCagr3": 0.1317,
-      "buybackYears": 1,
+      "buybackYears": 0,
       "dividendYears": 0,
       "debtTrend": -0.6392,
       "earningsVsCashGap": 2
@@ -219,7 +162,7 @@
   },
   "quality": {
     "applicable": true,
-    "score": 66,
+    "score": 65,
     "grade": "C",
     "label": "Watch list: promising but unproven",
     "pillars": [
@@ -227,12 +170,12 @@
         "name": "Growth",
         "weight": 25,
         "score": 100,
-        "coverage": 0.8,
+        "coverage": 0.6,
         "metrics": [
           {
             "label": "3-yr revenue CAGR",
-            "value": 0.1799,
-            "display": "18.0%",
+            "value": 0.3193,
+            "display": "31.9%",
             "ideal": "10%+",
             "status": "pass",
             "points": 7,
@@ -241,18 +184,18 @@
           },
           {
             "label": "5-yr revenue CAGR",
-            "value": 0.4307,
-            "display": "43.1%",
+            "value": null,
+            "display": "n/a",
             "ideal": "10%+",
-            "status": "pass",
-            "points": 5,
+            "status": "unavailable",
+            "points": 0,
             "max": 5,
-            "note": "Long-run growth rate."
+            "note": "Needs six fiscal years of data."
           },
           {
             "label": "Latest year revenue growth",
-            "value": 0.231,
-            "display": "23.1%",
+            "value": 0.3509,
+            "display": "35.1%",
             "ideal": "10%+",
             "status": "pass",
             "points": 5,
@@ -262,7 +205,7 @@
           {
             "label": "Growth consistency",
             "value": 1,
-            "display": "5 of 5 years up",
+            "display": "3 of 3 years up",
             "ideal": "4 of 5+",
             "status": "pass",
             "points": 4,
@@ -284,7 +227,7 @@
       {
         "name": "Profitability",
         "weight": 25,
-        "score": 45,
+        "score": 35,
         "coverage": 1,
         "metrics": [
           {
@@ -309,18 +252,18 @@
           },
           {
             "label": "Net margin",
-            "value": 0.7771,
-            "display": "77.7%",
+            "value": 0.1332,
+            "display": "13.3%",
             "ideal": "15%+",
-            "status": "pass",
-            "points": 4,
+            "status": "near",
+            "points": 2,
             "max": 4,
             "note": "Profit after all costs and credit losses."
           },
           {
             "label": "Net margin trend (3 yrs)",
-            "value": 1.4907,
-            "display": "149.1 pts",
+            "value": 0.2749,
+            "display": "27.5 pts",
             "ideal": "Expanding",
             "status": "pass",
             "points": 3,
@@ -329,8 +272,8 @@
           },
           {
             "label": "Profitable years",
-            "value": 0.4,
-            "display": "2 of 5",
+            "value": 0.5,
+            "display": "2 of 4",
             "ideal": "4 of 5+",
             "status": "fail",
             "points": 0,
@@ -418,13 +361,13 @@
       {
         "name": "Shareholder treatment",
         "weight": 10,
-        "score": 20,
+        "score": 0,
         "coverage": 1,
         "metrics": [
           {
-            "label": "Share count change (5 yrs)",
-            "value": 15.9499,
-            "display": "1595.0%",
+            "label": "Share count change (3 yrs)",
+            "value": 0.3895,
+            "display": "38.9%",
             "ideal": "Flat or falling",
             "status": "fail",
             "points": 0,
@@ -433,11 +376,11 @@
           },
           {
             "label": "Buybacks or dividends (years of 5)",
-            "value": 1,
-            "display": "1 of 5",
+            "value": 0,
+            "display": "0 of 5",
             "ideal": "3+",
-            "status": "near",
-            "points": 2,
+            "status": "fail",
+            "points": 0,
             "max": 4,
             "note": "Returning cash is a sign of a mature, confident business."
           }
@@ -446,16 +389,16 @@
       {
         "name": "Moat / durability",
         "weight": 10,
-        "score": 50,
+        "score": 79,
         "coverage": 0.67,
         "metrics": [
           {
             "label": "Scale (annual revenue)",
-            "value": 619353000,
-            "display": "$619.4M",
+            "value": 3613354000,
+            "display": "$3.61B",
             "ideal": "$1B+",
-            "status": "near",
-            "points": 2,
+            "status": "pass",
+            "points": 4,
             "max": 4,
             "note": "Scale lowers funding cost and spreads compliance expense."
           },
@@ -483,28 +426,29 @@
       }
     ],
     "redFlags": [
-      "Share count grew 1595% over 5 years (heavy dilution)."
+      "Share count grew 39% over 3 years (heavy dilution)."
     ],
     "notes": [],
     "highlights": [
-      "3-yr revenue CAGR: 18.0%",
-      "5-yr revenue CAGR: 43.1%",
-      "Latest year revenue growth: 23.1%",
-      "Growth consistency: 5 of 5 years up",
-      "Net margin: 77.7%",
-      "Book value / share growth (3-yr): 13.2%"
+      "3-yr revenue CAGR: 31.9%",
+      "Latest year revenue growth: 35.1%",
+      "Growth consistency: 3 of 3 years up",
+      "Book value / share growth (3-yr): 13.2%",
+      "Equity / assets: 20.7%",
+      "Debt / equity: 0.18x"
     ],
     "concerns": [
       "Return on equity: 5.7% (ideal 12%+)",
       "Net income growth (latest year): -3.5% (ideal 10%+)",
-      "Share count change (5 yrs): 1595.0% (ideal Flat or falling)"
+      "Share count change (3 yrs): 38.9% (ideal Flat or falling)",
+      "Buybacks or dividends (years of 5): 0 of 5 (ideal 3+)"
     ],
-    "dataCoverage": 0.9,
+    "dataCoverage": 0.86,
     "mode": "bank"
   },
   "valuation": {
     "applicable": true,
-    "score": 45,
+    "score": 40,
     "label": "Rich",
     "multiples": [
       {
@@ -547,8 +491,8 @@
         "ideal": "Below 4x",
         "status": "near",
         "weight": 1,
-        "ownHistoryPercentile": 0.08,
-        "ownHistoryRead": "cheapest 20% of its own history",
+        "ownHistoryPercentile": 0.5,
+        "ownHistoryRead": "middle of its own range",
         "note": "Useful when profits are small or volatile."
       },
       {
@@ -558,7 +502,7 @@
         "ideal": "Below 1.5x",
         "status": "near",
         "weight": 3,
-        "ownHistoryPercentile": 0.58,
+        "ownHistoryPercentile": 0.5,
         "ownHistoryRead": "middle of its own range",
         "note": "For a bank, book value is the anchor. Higher ROE justifies a higher multiple."
       },
@@ -583,18 +527,10 @@
     ],
     "ownHistory": [
       {
-        "year": "2021-12-31",
-        "price": 13.74,
-        "pe": null,
-        "ps": 29.22,
-        "pb": 1.65,
-        "pfcf": null
-      },
-      {
         "year": "2022-12-31",
         "price": 4.62,
         "pe": null,
-        "ps": 11.04,
+        "ps": 2.65,
         "pb": 0.8,
         "pfcf": null
       },
@@ -602,7 +538,7 @@
         "year": "2023-12-31",
         "price": 8.22,
         "pe": null,
-        "ps": 18.43,
+        "ps": 3.66,
         "pb": 1.48,
         "pfcf": null
       },
@@ -610,7 +546,7 @@
         "year": "2024-12-31",
         "price": 14.84,
         "pe": 38.05,
-        "ps": 32.49,
+        "ps": 6.11,
         "pb": 2.5,
         "pfcf": null
       },
@@ -618,28 +554,31 @@
         "year": "2025-12-31",
         "price": 27.46,
         "pe": 70.41,
-        "ps": 55.5,
+        "ps": 9.51,
         "pb": 3.28,
         "pfcf": null
       }
     ],
-    "ownHistoryAverage": 0.33,
-    "ownHistoryRead": "below its usual range",
+    "ownHistoryAverage": 0.5,
+    "ownHistoryRead": "middle of its own range",
     "fairValue": {
       "low": 9.5,
       "high": 13.57,
       "mid": 11.53,
+      "blended": true,
       "upsideToMid": -0.252,
       "methods": [
         {
           "method": "Earnings: 0.90 forward EPS x 14-20 P/E for 48% growth",
           "low": 12.59,
-          "high": 17.99
+          "high": 17.99,
+          "role": "blended"
         },
         {
           "method": "Book value: 8.71 BVPS x 0.7-1.1 P/B for 7% ROE",
           "low": 6.4,
-          "high": 9.15
+          "high": 9.15,
+          "role": "blended"
         }
       ],
       "read": "Price is above the fair-value range."
@@ -654,7 +593,7 @@
       "hold": 10,
       "sell": 4
     },
-    "growthUsed": 0.1799
+    "growthUsed": 0.3193
   },
   "levels": {
     "asOf": "2026-11-13",
@@ -941,8 +880,8 @@
     "action": "WAIT",
     "zoneA": {
       "low": 14.15,
-      "high": 15.61,
-      "basis": "nearest strong support (4 touches, last 2026-07-27)"
+      "high": 15.42,
+      "basis": "nearest strong support (4 touches, last 2026-07-27); price is at the top of this zone"
     },
     "zoneB": {
       "low": 13,
@@ -953,15 +892,15 @@
     "confirm": 17,
     "breakout": 33.63,
     "invalidation": 12.78,
-    "rewardRisk": 0.9,
+    "rewardRisk": 1,
     "openEndedUpside": false,
-    "upsideToConfirm": 0.1297,
+    "upsideToConfirm": 0.137,
     "upsideTarget": 16.81,
-    "downsideToInvalidation": -0.1411,
+    "downsideToInvalidation": -0.1356,
     "tranches": [
       {
         "pct": 25,
-        "when": "zone A $14.15-$15.61 only",
+        "when": "zone A $14.15-$15.42 only",
         "why": "starter in a downtrend; accept it may go lower"
       },
       {
@@ -980,7 +919,7 @@
     ],
     "warnings": [
       "Lagging the index by 53 points over 12 months.",
-      "Red flag: Share count grew 1595% over 5 years (heavy dilution)."
+      "Red flag: Share count grew 39% over 3 years (heavy dilution)."
     ],
     "earningsInDays": 76,
     "capitulation": false
@@ -1019,13 +958,14 @@
   },
   "dataQuality": {
     "financialsSource": "SEC XBRL + Yahoo fallback",
-    "fiscalYears": 7,
-    "firstFiscalYear": "2019-12-31",
+    "fiscalYears": 4,
+    "firstFiscalYear": "2022-12-31",
     "latestFiscalYear": "2025-12-31",
     "weeklyBars": 262,
     "dailyBars": 501,
     "benchmarkBars": 262,
     "metricsUnavailable": [
+      "5-yr revenue CAGR",
       "3-yr net income CAGR",
       "Pricing power (gross margin level)"
     ],

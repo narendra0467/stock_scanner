@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T04:52:58.291Z",
+  "updated": "2026-11-14T04:57:29.859Z",
   "symbols": {
     "SOFI": {
       "lastSent": {
@@ -21,13 +21,13 @@
       "lastSent": {
         "thesis-check": "2026-11-14"
       },
-      "lastGrade": "C",
+      "lastGrade": "B",
       "lastStage": 2,
       "lastClose": 534.06,
       "lastAbove200d": true,
       "lastTiming": "WAIT FOR PULLBACK",
-      "lastAction": "WAIT",
-      "redFlagCount": 1,
+      "lastAction": "WAIT FOR $460.34",
+      "redFlagCount": 0,
       "flags": {
         "goldenCrossSeen": false
       },

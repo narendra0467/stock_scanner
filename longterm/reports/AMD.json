@@ -5,7 +5,7 @@
   "exchange": "NasdaqGS",
   "currency": "USD",
   "benchmark": "SPY",
-  "asOf": "2026-11-14T04:52:57.890Z",
+  "asOf": "2026-11-14T04:57:29.458Z",
   "priceDate": "2026-11-13",
   "price": 534.06,
   "marketCap": 875905024000,
@@ -29,14 +29,14 @@
     "summary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. Scanner mode: Semiconductor / hardware. Cyclical. Judged on gross and operating margin through the cycle, inventory, capital intensity, EV/EBITDA and forward P/E."
   },
   "verdict": {
-    "businessGrade": "C",
+    "businessGrade": "B",
     "businessScore": 78,
-    "businessLabel": "Watch list: promising but unproven",
+    "businessLabel": "Quality growth / durable business",
     "valuationScore": 13,
     "valuationLabel": "Expensive",
     "timing": "WAIT FOR PULLBACK",
     "timingScore": 30,
-    "action": "WAIT"
+    "action": "WAIT FOR $460.34"
   },
   "financials": {
     "source": "SEC XBRL + Yahoo fallback",
@@ -45,6 +45,7 @@
       "entityName": "ADVANCED MICRO DEVICES, INC",
       "matchedTitle": "ADVANCED MICRO DEVICES INC"
     },
+    "notes": [],
     "years": [
       {
         "year": "2016-12-31",
@@ -279,8 +280,8 @@
   "quality": {
     "applicable": true,
     "score": 78,
-    "grade": "C",
-    "label": "Watch list: promising but unproven",
+    "grade": "B",
+    "label": "Quality growth / durable business",
     "pillars": [
       {
         "name": "Growth",
@@ -581,12 +582,8 @@
         ]
       }
     ],
-    "redFlags": [
-      "Share count grew 36% over 5 years (heavy dilution)."
-    ],
-    "notes": [
-      "Grade capped at C by a red flag."
-    ],
+    "redFlags": [],
+    "notes": [],
     "highlights": [
       "5-yr revenue CAGR: 28.8%",
       "Latest year revenue growth: 34.3%",
@@ -749,23 +746,26 @@
     "ownHistoryAverage": 0.75,
     "ownHistoryRead": "upper part of its range",
     "fairValue": {
-      "low": 302.74,
-      "high": 462.12,
-      "mid": 382.43,
-      "upsideToMid": -0.2839,
+      "low": 530.72,
+      "high": 796.08,
+      "mid": 663.4,
+      "blended": false,
+      "upsideToMid": 0.2422,
       "methods": [
         {
           "method": "Earnings: 17.69 forward EPS x 30-45 P/E for 50% growth",
           "low": 530.72,
-          "high": 796.08
+          "high": 796.08,
+          "role": "primary"
         },
         {
           "method": "Cash flow: 4.49 FCF/share at a 3.5%-6.0% yield",
           "low": 74.76,
-          "high": 128.17
+          "high": 128.17,
+          "role": "cross-check (not blended)"
         }
       ],
-      "read": "Price is above the fair-value range."
+      "read": "Price is inside the fair-value range. Methods disagree sharply, so only the earnings-based range is used; treat it with extra caution."
     },
     "analyst": {
       "count": 49,
@@ -1061,7 +1061,7 @@
   "entry": {
     "timingVerdict": "WAIT FOR PULLBACK",
     "timingScore": 30,
-    "action": "WAIT",
+    "action": "WAIT FOR $460.34",
     "zoneA": {
       "low": 404.19,
       "high": 460.34,
@@ -1102,9 +1102,7 @@
       "Price is 26% above the 200-day average: extended.",
       "Leading the index by 148 points over 12 months."
     ],
-    "warnings": [
-      "Red flag: Share count grew 36% over 5 years (heavy dilution)."
-    ],
+    "warnings": [],
     "earningsInDays": 80,
     "capitulation": false
   },
