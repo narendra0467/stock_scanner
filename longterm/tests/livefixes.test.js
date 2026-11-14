@@ -70,3 +70,14 @@ test("thesis-check does not fire on the first run", () => {
   const prev = { lastSent: {}, redFlagCount: 0, lastGrade: "C" };
   assert.deepEqual(evaluateRules(report, prev, null, "2026-11-14").fired.map((a) => a.id), ["thesis-check"]);
 });
+
+test("a fast-growing fintech is not valued like a regional bank", async () => {
+  const { bankYears } = await import("./fixtures/synth.js");
+  const financials = buildFinancials({ secYears: bankYears() }); // 35% revenue CAGR
+  const snapshot = normalizeQuote(quoteFixture({ sector: "Financial Services", industry: "Credit Services", trailingPE: 28, forwardPE: 19, pb: 2.6, ps: 5, roe: 0.07 }));
+  const v = scoreValuation({ financials, snapshot, profile: classifyBusiness(snapshot), weekly: uptrendWeekly() });
+  const byLabel = Object.fromEntries(v.multiples.map((m) => [m.label, m.status]));
+  assert.equal(byLabel["Forward P/E"], "pass");
+  assert.equal(byLabel["Price / book"], "pass");
+  assert.equal(byLabel["Trailing P/E"], "pass");
+});

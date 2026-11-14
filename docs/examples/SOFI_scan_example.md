@@ -1,6 +1,8 @@
 # Worked example: SOFI (SoFi Technologies)
 
 > Written at the planning stage from Yahoo Finance + SEC data as of 2026-10-14. Run `npm run lt:scan -- SOFI` for the live report, or `npm run lt:scan -- SOFI --demo` to see the layout offline.
+>
+> **Live result on 2026-11-14** (first scheduled-style run, see `longterm/reports/SOFI.md`): price $15.42, business grade **C (65/100)** rather than the B estimated here. The difference comes from data the plan could not see: SEC filings show the diluted share count grew 39% from 2022 to 2025, which the scanner treats as a red flag and caps the grade at C, and ROE of 7% fails the bank-mode test. Growth (32% three-year CAGR) and balance sheet pass in full. Timing was TREND REPAIR WATCH (Stage 4), zone A $14.15–$15.42, reclaim $16.81, invalidation $12.78.
 
 ```
  SOFI · SoFi Technologies, Inc. · NasdaqGS · USD

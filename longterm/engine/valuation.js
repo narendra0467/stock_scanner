@@ -57,12 +57,14 @@ export function scoreValuation({ financials, snapshot, profile, weekly }) {
     return past.length >= 3 && isNum(current) ? percentileRank([...past, current], current) : null;
   };
 
+  // A bank-mode company growing 20%+ (fintech) is priced on growth, not like a regional bank.
+  const growthBank = isBank && highGrowth;
   const bands = {
-    trailingPE: isBank ? [15, 20] : highGrowth ? [40, 50] : mode === "software" ? [45, 60] : [25, 32],
-    forwardPE: isBank ? [13, 17] : highGrowth ? [30, 38] : mode === "software" ? [35, 45] : [22, 28],
+    trailingPE: growthBank ? [30, 40] : isBank ? [15, 20] : highGrowth ? [40, 50] : mode === "software" ? [45, 60] : [25, 32],
+    forwardPE: growthBank ? [20, 28] : isBank ? [13, 17] : highGrowth ? [30, 38] : mode === "software" ? [35, 45] : [22, 28],
     peg: [1.5, 2.2],
-    priceToSales: isBank ? [4, 6] : mode === "software" ? [8, 12] : mode === "semis" ? [6, 9] : [3, 5],
-    priceToBook: isBank ? ((snapshot.roeTTM ?? 0) >= 0.15 ? [2.5, 3.5] : [1.5, 2.2]) : [6, 10],
+    priceToSales: growthBank ? [6, 9] : isBank ? [4, 6] : mode === "software" ? [8, 12] : mode === "semis" ? [6, 9] : [3, 5],
+    priceToBook: growthBank ? [3, 4.5] : isBank ? ((snapshot.roeTTM ?? 0) >= 0.15 ? [2.5, 3.5] : [1.5, 2.2]) : [6, 10],
     evToEbitda: mode === "semis" ? [18, 25] : [14, 20],
     priceToFcf: mode === "software" ? [30, 45] : [22, 32],
   };
@@ -110,8 +112,8 @@ export function scoreValuation({ financials, snapshot, profile, weekly }) {
   const gClamped = clamp(g, -0.1, 0.5);
   const methods = [];
   if (isNum(eps) && eps > 0) {
-    const lowPE = isBank ? clamp(8 + gClamped * 50, 7, 14) : clamp(8 + gClamped * 80, 8, 30);
-    const highPE = isBank ? clamp(10 + gClamped * 80, 9, 20) : clamp(10 + gClamped * 130, 12, 45);
+    const lowPE = growthBank ? clamp(10 + gClamped * 50, 10, 22) : isBank ? clamp(8 + gClamped * 50, 7, 14) : clamp(8 + gClamped * 80, 8, 30);
+    const highPE = growthBank ? clamp(14 + gClamped * 60, 14, 32) : isBank ? clamp(10 + gClamped * 80, 9, 20) : clamp(10 + gClamped * 130, 12, 45);
     methods.push({ method: `Earnings: ${fmtX(eps, 2).replace("x", "")} forward EPS x ${lowPE.toFixed(0)}-${highPE.toFixed(0)} P/E for ${fmtPct(gClamped, 0)} growth`, low: eps * lowPE, high: eps * highPE });
   }
   if (!isBank && isNum(snapshot.fcfTTM) && snapshot.fcfTTM > 0 && isNum(snapshot.sharesOutstanding) && snapshot.sharesOutstanding > 0) {
