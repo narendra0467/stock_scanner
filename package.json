@@ -9,7 +9,11 @@
   },
   "scripts": {
     "report": "node cli.js",
-    "serve": "node server.js"
+    "serve": "node server.js",
+    "lt:scan": "node longterm/cli.js",
+    "lt:monitor": "node longterm/monitor/monitorCli.js",
+    "lt:watchlist": "node longterm/monitor/watchlistCli.js",
+    "lt:test": "node --test longterm/tests/*.test.js"
   },
   "license": "MIT",
   "dependencies": {

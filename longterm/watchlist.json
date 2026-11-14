@@ -1,0 +1,8 @@
+{
+  "updated": null,
+  "note": "20-25 long-term names. holding=true turns on the invalidation / extended alerts for names you already own.",
+  "symbols": [
+    { "symbol": "SOFI", "note": "example from the plan; replace with your own list", "holding": false, "addedOn": "2026-11-14" },
+    { "symbol": "AMD", "note": "example", "holding": false, "addedOn": "2026-11-14" }
+  ]
+}

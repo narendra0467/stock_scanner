@@ -1,0 +1,57 @@
+name: Long-Term Watchlist Monitor
+
+on:
+  workflow_dispatch:
+    inputs:
+      symbol:
+        description: "Optional: scan one ticker on demand and send the summary to Telegram"
+        required: false
+        default: ""
+  schedule:
+    # Weekdays 21:45 UTC = 17:45 ET in summer / 16:45 ET in winter, after the US/Canada close.
+    - cron: "45 21 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: longterm-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+      LT_REPORT_BASE_URL: https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/longterm/reports
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run tests
+        run: npm run lt:test
+
+      - name: On-demand scan
+        if: ${{ github.event.inputs.symbol != '' }}
+        run: node longterm/cli.js "${{ github.event.inputs.symbol }}" --telegram --brief
+
+      - name: Monitor watchlist
+        if: ${{ github.event.inputs.symbol == '' }}
+        run: node longterm/monitor/monitorCli.js --digest
+
+      - name: Commit reports and alert state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add longterm/reports longterm/state
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Long-term monitor: refresh reports and alert state"
+            git push
+          fi

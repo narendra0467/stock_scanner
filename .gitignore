@@ -1,5 +1,6 @@
 node_modules/
-reports/
+/reports/
 *.log
 .DS_Store
 _t.mjs
+longterm/cache/

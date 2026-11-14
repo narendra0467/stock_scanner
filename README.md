@@ -11,6 +11,21 @@ No API key. No paid data feed. No account. Just Node.js + free Yahoo Finance dat
 
 ---
 
+## Long-Term Investor Scanner (`longterm/`)
+
+A second, standalone scanner for 1–3+ year holds lives in `longterm/`: business grade A–D from 5–10 years of SEC/Yahoo statements, valuation vs the stock's own history, long-term support/resistance and stage analysis, an entry plan with buy zones and invalidation, and a 20–25 name watchlist that sends Telegram alerts from GitHub Actions. It shares no code with the report scanner described below.
+
+```bash
+npm run lt:scan -- SOFI
+npm run lt:watchlist -- add SOFI AMD SHOP.TO
+npm run lt:monitor -- --dry-run
+npm run lt:test
+```
+
+See `longterm/README.md`, `docs/LONG_TERM_SCANNER_PLAN.md` and `docs/examples/SOFI_scan_example.md`.
+
+---
+
 ## What it does
 
 For a ticker it pulls live fundamentals and produces:
