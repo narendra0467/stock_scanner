@@ -64,8 +64,9 @@ export const RULES = [
     level: "risk",
     emoji: "🟠",
     test: (r, prev) => {
+      if (!prev) return null; // first run: nothing to compare against
       const flags = r.quality.redFlags?.length ?? 0;
-      const newFlag = flags > (prev?.redFlagCount ?? 0);
+      const newFlag = flags > (prev.redFlagCount ?? 0);
       const order = { A: 4, B: 3, C: 2, D: 1 };
       const downgraded = prev?.lastGrade && order[r.verdict.businessGrade] && order[prev.lastGrade] && order[r.verdict.businessGrade] < order[prev.lastGrade];
       if (!newFlag && !downgraded) return null;

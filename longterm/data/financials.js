@@ -187,11 +187,49 @@ export function normalizeQuote(quote = {}) {
   };
 }
 
+// If SEC revenue is far below Yahoo's "Total Revenue" for most overlapping years, the XBRL tag we picked
+// is a partial line (common for banks/fintechs, where us-gaap:Revenues may be one component). Use Yahoo's.
+export function reconcileRevenue(rows, yahooYears = []) {
+  const pairs = rows
+    .map((row) => {
+      const y = yahooYears.find((yr) => Math.abs(daysBetween(row.fiscalYearEnd, yr.fiscalYearEnd)) <= 20);
+      return y && isNum(row.revenue) && isNum(y.revenue) && row.source === "sec" && row.revenueTag ? { row, yahoo: y.revenue } : null;
+    })
+    .filter(Boolean);
+  if (pairs.length < 2) return rows;
+  const understated = pairs.filter(({ row, yahoo }) => row.revenue < yahoo * 0.6).length;
+  if (understated / pairs.length <= 0.5) return rows;
+  return rows.map((row) => {
+    const y = yahooYears.find((yr) => Math.abs(daysBetween(row.fiscalYearEnd, yr.fiscalYearEnd)) <= 20);
+    if (!y || !isNum(y.revenue)) return row;
+    return { ...row, revenue: y.revenue, revenueSource: "yahoo (SEC tag looked partial)", grossProfit: isNum(y.grossProfit) ? y.grossProfit : null, operatingIncome: isNum(y.operatingIncome) ? y.operatingIncome : row.operatingIncome };
+  });
+}
+
+// Drop history from before a corporate discontinuity (SPAC shell, reverse merger, IPO recapitalisation):
+// a >4x jump in share count or >15x jump in revenue in one year means the earlier rows describe a different entity.
+export function trimDiscontinuities(rows) {
+  let start = 0;
+  for (let i = 1; i < rows.length; i += 1) {
+    const prev = rows[i - 1];
+    const row = rows[i];
+    const shareJump = isNum(prev.dilutedShares) && prev.dilutedShares > 0 && isNum(row.dilutedShares) && row.dilutedShares / prev.dilutedShares > 4;
+    const revenueJump = isNum(prev.revenue) && prev.revenue > 0 && isNum(row.revenue) && row.revenue / prev.revenue > 15;
+    if (shareJump || revenueJump) start = i + 1; // the jump year itself is a partial/merged year; start after it
+  }
+  return start > 0 && rows.length - start >= 2 ? rows.slice(start) : rows;
+}
+
 export function buildFinancials({ secYears = [], yahooYears = [], secMeta = null }) {
-  const merged = deriveYears(mergeAnnuals(secYears, yahooYears)).slice(-10);
+  const reconciled = reconcileRevenue(mergeAnnuals(secYears, yahooYears), yahooYears);
+  const trimmed = trimDiscontinuities(reconciled);
+  const merged = deriveYears(trimmed).slice(-10);
   const summary = summarizeYears(merged);
-  const source = secYears.length ? (yahooYears.length ? "SEC XBRL + Yahoo fallback" : "SEC XBRL") : yahooYears.length ? "Yahoo Finance (no SEC filings found)" : "none";
-  return { years: merged, summary, source, sec: secMeta };
+  let source = secYears.length ? (yahooYears.length ? "SEC XBRL + Yahoo fallback" : "SEC XBRL") : yahooYears.length ? "Yahoo Finance (no SEC filings found)" : "none";
+  const notes = [];
+  if (merged.some((row) => row.revenueSource)) notes.push("Revenue taken from Yahoo: the SEC revenue tag looked like a partial line item (common for banks and fintechs).");
+  if (trimmed.length < reconciled.length) notes.push(`Dropped ${reconciled.length - trimmed.length} early fiscal year(s) from before a corporate discontinuity (SPAC/merger/recapitalisation).`);
+  return { years: merged, summary, source, sec: secMeta, notes };
 }
 
 export const fmtYearRow = (row) => ({

@@ -126,14 +126,20 @@ export function scoreValuation({ financials, snapshot, profile, weekly }) {
   }
   let fairValue = null;
   if (methods.length) {
-    const low = methods.reduce((a, m) => a + m.low, 0) / methods.length;
-    const high = methods.reduce((a, m) => a + m.high, 0) / methods.length;
+    // Blend only when the methods roughly agree. When they disagree by more than 2.5x (typical for a
+    // hyper-growth company whose FCF yield is tiny), the earnings method leads and the rest are cross-checks.
+    const lows = methods.map((m) => m.low);
+    const disagree = methods.length > 1 && Math.max(...lows) / Math.min(...lows) > 2.5;
+    const primary = disagree ? [methods[0]] : methods;
+    const low = primary.reduce((a, m) => a + m.low, 0) / primary.length;
+    const high = primary.reduce((a, m) => a + m.high, 0) / primary.length;
     const mid = (low + high) / 2;
     fairValue = {
       low: round(low), high: round(high), mid: round(mid),
+      blended: !disagree,
       upsideToMid: isNum(snapshot.price) && snapshot.price > 0 ? round(mid / snapshot.price - 1, 4) : null,
-      methods: methods.map((m) => ({ ...m, low: round(m.low), high: round(m.high) })),
-      read: isNum(snapshot.price) ? (snapshot.price < low ? "Price is below the fair-value range." : snapshot.price > high ? "Price is above the fair-value range." : "Price is inside the fair-value range.") : null,
+      methods: methods.map((m, i) => ({ ...m, low: round(m.low), high: round(m.high), role: disagree ? (i === 0 ? "primary" : "cross-check (not blended)") : "blended" })),
+      read: `${isNum(snapshot.price) ? (snapshot.price < low ? "Price is below the fair-value range." : snapshot.price > high ? "Price is above the fair-value range." : "Price is inside the fair-value range.") : ""}${disagree ? " Methods disagree sharply, so only the earnings-based range is used; treat it with extra caution." : ""}`.trim(),
     };
   }
 

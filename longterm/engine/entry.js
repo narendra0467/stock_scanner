@@ -69,6 +69,7 @@ export function buildEntryPlan({ levels, quality, valuation, snapshot, today = n
       : isNum(ma.sma200d) && ma.sma200d < close
         ? { low: round(ma.sma200d * 0.97), high: round(ma.sma200d * 1.02), basis: "200-day average" }
         : { low: round(close - 2 * atrW), high: round(close - atrW), basis: "volatility fallback (no pivots below)" };
+  if (!inZone && zoneA.high > close) zoneA = { ...zoneA, high: round(close), basis: `${zoneA.basis}; price is at the top of this zone` };
   let pivotZoneAsB = null;
   if (!inZone && isNum(ma.sma200d) && ma.sma200d < close && rising200d && ma.sma200d > zoneA.high && stage !== 4) {
     // In a healthy uptrend the rising 200-day is usually the first place buyers step in; the pivot below becomes zone B.

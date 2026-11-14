@@ -40,6 +40,7 @@ export function renderMarkdown(r) {
       ["Fiscal year", "Revenue", "Growth", "Op. margin", "Net income", "Net margin", "EPS", "Op. cash flow", "Free cash flow", "Cash", "Debt", "Diluted shares"],
       r.financials.years.map((y) => [y.year, money(y.revenue), fmtPct(y.revenueGrowth), fmtPct(y.operatingMargin), money(y.netIncome), fmtPct(y.netMargin), isNum(y.eps) ? y.eps.toFixed(2) : "n/a", money(y.operatingCashFlow), money(y.freeCashFlow), money(y.cash), money(y.totalDebt), isNum(y.dilutedShares) ? `${(y.dilutedShares / 1e6).toFixed(0)}M` : "n/a"])
     );
+    if (r.financials.notes?.length) md += line(r.financials.notes.map((n) => `> ℹ ${n}`).join("\n"));
     const s = r.financials.summary;
     md += line(`3-yr revenue CAGR **${fmtPct(s.revenueCagr3)}** · 5-yr **${fmtPct(s.revenueCagr5)}** · up ${s.revenueUpYears} of ${s.revenueYearsWithGrowthData} years · profitable ${s.profitableYears} of ${s.netIncomeYears} years · FCF positive ${s.fcfPositiveYears} of ${s.fcfYears} years · share count ${fmtPct(s.shareChange5y)} over ${s.shareChangeYears ?? "n/a"} yrs`);
     md += line();
@@ -62,7 +63,7 @@ export function renderMarkdown(r) {
     if (r.valuation.fairValue) {
       const f = r.valuation.fairValue;
       md += line(`**Fair-value range: ${fmtPrice(f.low)} – ${fmtPrice(f.high)}** (mid ${fmtPrice(f.mid)}, ${fmtPct(f.upsideToMid, 0)} vs price). ${f.read}`);
-      md += line(f.methods.map((m) => `- ${m.method} → ${fmtPrice(m.low)}–${fmtPrice(m.high)}`).join("\n"));
+      md += line(f.methods.map((m) => `- ${m.method} → ${fmtPrice(m.low)}–${fmtPrice(m.high)}${m.role && m.role !== "blended" ? ` (${m.role})` : ""}`).join("\n"));
     }
     const a = r.valuation.analyst ?? {};
     if (isNum(a.count)) md += line(`Analyst context (not a signal): ${a.count} analysts, mean target ${fmtPrice(a.targetMean)}, ${a.buy} buy / ${a.hold} hold / ${a.sell} sell.`);

@@ -14,11 +14,11 @@ export const CONCEPTS = {
   revenue: {
     kind: "duration",
     tags: [
+      "us-gaap:RevenuesNetOfInterestExpense",
       "us-gaap:Revenues",
       "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
       "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
       "us-gaap:SalesRevenueNet",
-      "us-gaap:RevenuesNetOfInterestExpense",
       "us-gaap:InterestAndDividendIncomeOperating",
       "ifrs-full:Revenue",
       "ifrs-full:RevenueFromContractsWithCustomers",

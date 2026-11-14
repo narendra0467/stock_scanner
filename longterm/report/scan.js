@@ -82,6 +82,7 @@ export async function scanTicker(symbolInput, deps = defaultDeps, { today } = {}
     financials: {
       source: financials.source,
       sec: financials.sec,
+      notes: financials.notes ?? [],
       years: financials.years.map(fmtYearRow),
       summary: Object.fromEntries(Object.entries(financials.summary).filter(([k]) => k !== "latest").map(([k, v]) => [k, isNum(v) ? round(v, 4) : v])),
     },

@@ -135,7 +135,7 @@ export function scoreQuality({ financials, snapshot, profile }) {
   const lastTwoDown = years.length >= 3 && years.slice(-2).every((row) => isNum(row.revenueGrowth) && row.revenueGrowth < 0);
   if (lastTwoDown && !cyclical) redFlags.push("Revenue fell in each of the last two fiscal years.");
   if (!isBank && mode !== "biotech" && s.netIncomeYears >= 4 && s.profitableYears <= s.netIncomeYears - 3 && s.fcfYears >= 4 && s.fcfPositiveYears <= s.fcfYears - 3) redFlags.push("Losses and negative free cash flow in most of the last five years.");
-  if (isNum(s.shareChange5y) && s.shareChange5y > 0.25) redFlags.push(`Share count grew ${fmtPct(s.shareChange5y, 0)} over ${s.shareChangeYears} years (heavy dilution).`);
+  if (isNum(s.shareChange5y) && s.shareChange5y > 0.25 && (s.buybackYears ?? 0) < 3) redFlags.push(`Share count grew ${fmtPct(s.shareChange5y, 0)} over ${s.shareChangeYears} years (heavy dilution).`);
   if (!isBank && isNum(s.debtTrend) && s.debtTrend > 0.5 && isNum(s.fcfCagr3) && s.fcfCagr3 < 0) redFlags.push("Debt up more than 50% in two years while free cash flow is shrinking.");
   if (!isBank && isNum(s.earningsVsCashGap) && s.earningsVsCashGap >= 3) redFlags.push("Operating cash flow has trailed reported profit for three straight years (earnings quality).");
   if (isNum(latest.equity) && latest.equity < 0 && !(isNum(latest.buybacks) && latest.buybacks > 0)) redFlags.push("Negative shareholder equity.");
