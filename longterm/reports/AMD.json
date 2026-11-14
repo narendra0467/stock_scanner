@@ -1,0 +1,1155 @@
+{
+  "version": "1.0.0",
+  "symbol": "AMD",
+  "name": "Advanced Micro Devices, Inc.",
+  "exchange": "NasdaqGS",
+  "currency": "USD",
+  "benchmark": "SPY",
+  "asOf": "2026-11-14T04:52:57.890Z",
+  "priceDate": "2026-11-13",
+  "price": 534.06,
+  "marketCap": 875905024000,
+  "business": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "country": "United States",
+    "employees": 31000,
+    "website": "https://www.amd.com",
+    "mode": "semis",
+    "modeLabel": "Semiconductor / hardware",
+    "modeExplain": "Cyclical. Judged on gross and operating margin through the cycle, inventory, capital intensity, EV/EBITDA and forward P/E.",
+    "keyMetrics": [
+      "revenue growth",
+      "gross margin",
+      "operating margin",
+      "FCF",
+      "EV/EBITDA",
+      "forward P/E"
+    ],
+    "summary": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. Scanner mode: Semiconductor / hardware. Cyclical. Judged on gross and operating margin through the cycle, inventory, capital intensity, EV/EBITDA and forward P/E."
+  },
+  "verdict": {
+    "businessGrade": "C",
+    "businessScore": 78,
+    "businessLabel": "Watch list: promising but unproven",
+    "valuationScore": 13,
+    "valuationLabel": "Expensive",
+    "timing": "WAIT FOR PULLBACK",
+    "timingScore": 30,
+    "action": "WAIT"
+  },
+  "financials": {
+    "source": "SEC XBRL + Yahoo fallback",
+    "sec": {
+      "cik": "0000002488",
+      "entityName": "ADVANCED MICRO DEVICES, INC",
+      "matchedTitle": "ADVANCED MICRO DEVICES INC"
+    },
+    "years": [
+      {
+        "year": "2016-12-31",
+        "revenue": 4319000000,
+        "revenueGrowth": 0.0822,
+        "grossMargin": 0.2322,
+        "operatingMargin": -0.0864,
+        "netIncome": -498000000,
+        "netMargin": -0.1153,
+        "eps": -0.6,
+        "operatingCashFlow": 81000000,
+        "freeCashFlow": 4000000,
+        "fcfMargin": 0.0009,
+        "cash": 1264000000,
+        "totalDebt": 1435000000,
+        "equity": 477000000,
+        "dilutedShares": 835000000,
+        "roe": -7.8425,
+        "roa": -0.15,
+        "source": "sec"
+      },
+      {
+        "year": "2017-12-30",
+        "revenue": 5253000000,
+        "revenueGrowth": 0.2163,
+        "grossMargin": 0.3402,
+        "operatingMargin": 0.0242,
+        "netIncome": -33000000,
+        "netMargin": -0.0063,
+        "eps": -0.03,
+        "operatingCashFlow": 12000000,
+        "freeCashFlow": -101000000,
+        "fcfMargin": -0.0192,
+        "cash": 1185000000,
+        "totalDebt": 1395000000,
+        "equity": 596000000,
+        "dilutedShares": 952000000,
+        "roe": -0.0615,
+        "roa": -0.0093,
+        "source": "sec"
+      },
+      {
+        "year": "2018-12-29",
+        "revenue": 6475000000,
+        "revenueGrowth": 0.2326,
+        "grossMargin": 0.3779,
+        "operatingMargin": 0.0697,
+        "netIncome": 337000000,
+        "netMargin": 0.052,
+        "eps": 0.32,
+        "operatingCashFlow": 34000000,
+        "freeCashFlow": -129000000,
+        "fcfMargin": -0.0199,
+        "cash": 1078000000,
+        "totalDebt": 1250000000,
+        "equity": 1266000000,
+        "dilutedShares": 1064000000,
+        "roe": 0.362,
+        "roa": 0.074,
+        "source": "sec"
+      },
+      {
+        "year": "2019-12-28",
+        "revenue": 6731000000,
+        "revenueGrowth": 0.0395,
+        "grossMargin": 0.4261,
+        "operatingMargin": 0.0937,
+        "netIncome": 341000000,
+        "netMargin": 0.0507,
+        "eps": 0.3,
+        "operatingCashFlow": 493000000,
+        "freeCashFlow": 276000000,
+        "fcfMargin": 0.041,
+        "cash": 1466000000,
+        "totalDebt": 486000000,
+        "equity": 2827000000,
+        "dilutedShares": 1120000000,
+        "roe": 0.1666,
+        "roa": 0.0566,
+        "source": "sec"
+      },
+      {
+        "year": "2020-12-26",
+        "revenue": 9763000000,
+        "revenueGrowth": 0.4505,
+        "grossMargin": 0.4453,
+        "operatingMargin": 0.1402,
+        "netIncome": 2490000000,
+        "netMargin": 0.255,
+        "eps": 2.06,
+        "operatingCashFlow": 1071000000,
+        "freeCashFlow": 777000000,
+        "fcfMargin": 0.0796,
+        "cash": 1595000000,
+        "totalDebt": 330000000,
+        "equity": 5837000000,
+        "dilutedShares": 1207000000,
+        "roe": 0.5748,
+        "roa": 0.2778,
+        "source": "sec"
+      },
+      {
+        "year": "2021-12-25",
+        "revenue": 16434000000,
+        "revenueGrowth": 0.6833,
+        "grossMargin": 0.4825,
+        "operatingMargin": 0.222,
+        "netIncome": 3162000000,
+        "netMargin": 0.1924,
+        "eps": 2.57,
+        "operatingCashFlow": 3521000000,
+        "freeCashFlow": 3220000000,
+        "fcfMargin": 0.1959,
+        "cash": 2535000000,
+        "totalDebt": 313000000,
+        "equity": 7497000000,
+        "dilutedShares": 1229000000,
+        "roe": 0.4743,
+        "roa": 0.2546,
+        "source": "sec"
+      },
+      {
+        "year": "2022-12-31",
+        "revenue": 23601000000,
+        "revenueGrowth": 0.4361,
+        "grossMargin": 0.4493,
+        "operatingMargin": 0.0536,
+        "netIncome": 1320000000,
+        "netMargin": 0.0559,
+        "eps": 0.84,
+        "operatingCashFlow": 3565000000,
+        "freeCashFlow": 3115000000,
+        "fcfMargin": 0.132,
+        "cash": 4835000000,
+        "totalDebt": 2467000000,
+        "equity": 54750000000,
+        "dilutedShares": 1571000000,
+        "roe": 0.0424,
+        "roa": 0.0195,
+        "source": "sec"
+      },
+      {
+        "year": "2023-12-30",
+        "revenue": 22680000000,
+        "revenueGrowth": -0.039,
+        "grossMargin": 0.4612,
+        "operatingMargin": 0.0177,
+        "netIncome": 854000000,
+        "netMargin": 0.0377,
+        "eps": 0.53,
+        "operatingCashFlow": 1667000000,
+        "freeCashFlow": 1121000000,
+        "fcfMargin": 0.0494,
+        "cash": 3933000000,
+        "totalDebt": 2468000000,
+        "equity": 55892000000,
+        "dilutedShares": 1625000000,
+        "roe": 0.0154,
+        "roa": 0.0126,
+        "source": "sec"
+      },
+      {
+        "year": "2024-12-28",
+        "revenue": 25785000000,
+        "revenueGrowth": 0.1369,
+        "grossMargin": 0.4935,
+        "operatingMargin": 0.0737,
+        "netIncome": 1641000000,
+        "netMargin": 0.0636,
+        "eps": 1,
+        "operatingCashFlow": 3041000000,
+        "freeCashFlow": 2405000000,
+        "fcfMargin": 0.0933,
+        "cash": 3787000000,
+        "totalDebt": 1721000000,
+        "equity": 57568000000,
+        "dilutedShares": 1637000000,
+        "roe": 0.0289,
+        "roa": 0.0237,
+        "source": "sec"
+      },
+      {
+        "year": "2025-12-27",
+        "revenue": 34639000000,
+        "revenueGrowth": 0.3434,
+        "grossMargin": 0.4952,
+        "operatingMargin": 0.1066,
+        "netIncome": 4335000000,
+        "netMargin": 0.1251,
+        "eps": 2.65,
+        "operatingCashFlow": 7709000000,
+        "freeCashFlow": 6735000000,
+        "fcfMargin": 0.1944,
+        "cash": 5539000000,
+        "totalDebt": 3222000000,
+        "equity": 62999000000,
+        "dilutedShares": 1636000000,
+        "roe": 0.0719,
+        "roa": 0.0564,
+        "source": "sec"
+      }
+    ],
+    "summary": {
+      "yearsAvailable": 10,
+      "firstYear": "2016-12-31",
+      "latestYear": "2025-12-27",
+      "revenueCagr3": 0.1364,
+      "revenueCagr5": 0.2882,
+      "revenueGrowthLatest": 0.3434,
+      "revenueUpYears": 4,
+      "revenueYearsWithGrowthData": 5,
+      "profitableYears": 5,
+      "netIncomeYears": 5,
+      "fcfPositiveYears": 5,
+      "fcfYears": 5,
+      "epsCagr3": 0.4666,
+      "fcfCagr3": 0.2931,
+      "netIncomeCagr3": 0.4864,
+      "operatingMarginTrend": 0.089,
+      "grossMarginTrend": 0.034,
+      "netMarginTrend": 0.0875,
+      "grossMarginStdev": 0.0182,
+      "shareChange5y": 0.3554,
+      "shareChangeYears": 5,
+      "bvpsCagr3": 0.0338,
+      "buybackYears": 5,
+      "dividendYears": 0,
+      "debtTrend": 0.3055,
+      "earningsVsCashGap": 0
+    }
+  },
+  "quality": {
+    "applicable": true,
+    "score": 78,
+    "grade": "C",
+    "label": "Watch list: promising but unproven",
+    "pillars": [
+      {
+        "name": "Growth",
+        "weight": 25,
+        "score": 86,
+        "coverage": 1,
+        "metrics": [
+          {
+            "label": "3-yr revenue CAGR",
+            "value": 0.1364,
+            "display": "13.6%",
+            "ideal": "15%+",
+            "status": "near",
+            "points": 3.5,
+            "max": 7,
+            "note": "Compound growth over the last three fiscal years."
+          },
+          {
+            "label": "5-yr revenue CAGR",
+            "value": 0.2882,
+            "display": "28.8%",
+            "ideal": "15%+",
+            "status": "pass",
+            "points": 5,
+            "max": 5,
+            "note": "Long-run growth rate."
+          },
+          {
+            "label": "Latest year revenue growth",
+            "value": 0.3434,
+            "display": "34.3%",
+            "ideal": "10%+",
+            "status": "pass",
+            "points": 5,
+            "max": 5,
+            "note": "Is growth still alive right now?"
+          },
+          {
+            "label": "Growth consistency",
+            "value": 0.8,
+            "display": "4 of 5 years up",
+            "ideal": "3 of 5+",
+            "status": "pass",
+            "points": 4,
+            "max": 4,
+            "note": "Steady growers are easier to hold through bad markets."
+          },
+          {
+            "label": "3-yr EPS CAGR",
+            "value": 0.4666,
+            "display": "46.7%",
+            "ideal": "12%+",
+            "status": "pass",
+            "points": 4,
+            "max": 4,
+            "note": "Profits should grow at least as fast as sales."
+          }
+        ]
+      },
+      {
+        "name": "Profitability",
+        "weight": 20,
+        "score": 68,
+        "coverage": 1,
+        "metrics": [
+          {
+            "label": "Gross margin",
+            "value": 0.4952,
+            "display": "49.5%",
+            "ideal": "45%+",
+            "status": "pass",
+            "points": 4,
+            "max": 4,
+            "note": "High gross margin usually means pricing power or a differentiated product."
+          },
+          {
+            "label": "Operating margin",
+            "value": 0.1066,
+            "display": "10.7%",
+            "ideal": "15%+",
+            "status": "near",
+            "points": 2.5,
+            "max": 5,
+            "note": "Profit from the core business before interest and tax."
+          },
+          {
+            "label": "Net margin",
+            "value": 0.1251,
+            "display": "12.5%",
+            "ideal": "10%+",
+            "status": "pass",
+            "points": 3,
+            "max": 3,
+            "note": "Bottom-line profitability."
+          },
+          {
+            "label": "Operating margin trend (3 yrs)",
+            "value": 0.089,
+            "display": "8.9 pts",
+            "ideal": "Expanding",
+            "status": "pass",
+            "points": 4,
+            "max": 4,
+            "note": "Operating leverage: margins should widen as the company scales."
+          },
+          {
+            "label": "Return on equity",
+            "value": 0.0719,
+            "display": "7.2%",
+            "ideal": "15%+",
+            "status": "fail",
+            "points": 0,
+            "max": 4,
+            "note": "How well the company compounds shareholder capital."
+          }
+        ]
+      },
+      {
+        "name": "Cash flow",
+        "weight": 20,
+        "score": 100,
+        "coverage": 1,
+        "metrics": [
+          {
+            "label": "Free-cash-flow positive years",
+            "value": 1,
+            "display": "5 of 5",
+            "ideal": "4 of 5+",
+            "status": "pass",
+            "points": 5,
+            "max": 5,
+            "note": "Real cash generation, year after year."
+          },
+          {
+            "label": "FCF margin (latest)",
+            "value": 0.1944,
+            "display": "19.4%",
+            "ideal": "12%+",
+            "status": "pass",
+            "points": 5,
+            "max": 5,
+            "note": "Cash left after running and reinvesting in the business, per dollar of sales."
+          },
+          {
+            "label": "FCF conversion (FCF / net income)",
+            "value": 1.5536,
+            "display": "1.55x",
+            "ideal": "0.8x+",
+            "status": "pass",
+            "points": 4,
+            "max": 4,
+            "note": "Accounting profit should turn into cash. Below 0.5x is a warning."
+          },
+          {
+            "label": "3-yr FCF growth",
+            "value": 0.2931,
+            "display": "29.3%",
+            "ideal": "10%+",
+            "status": "pass",
+            "points": 3,
+            "max": 3,
+            "note": "Cash flow growing with the business."
+          },
+          {
+            "label": "Earnings quality (OCF vs net income, 3 yrs)",
+            "value": 3,
+            "display": "3 of 3 years clean",
+            "ideal": "3 of 3",
+            "status": "pass",
+            "points": 3,
+            "max": 3,
+            "note": "Operating cash flow should be close to or above reported profit."
+          }
+        ]
+      },
+      {
+        "name": "Balance sheet",
+        "weight": 15,
+        "score": 87,
+        "coverage": 1,
+        "metrics": [
+          {
+            "label": "Net debt / operating cash flow",
+            "value": -0.3006,
+            "display": "net cash",
+            "ideal": "Below 1.5x",
+            "status": "pass",
+            "points": 5,
+            "max": 5,
+            "note": "Years of cash flow needed to repay debt. Net cash is best."
+          },
+          {
+            "label": "Debt / equity",
+            "value": 0.0511,
+            "display": "0.05x",
+            "ideal": "Below 0.6x",
+            "status": "pass",
+            "points": 3,
+            "max": 3,
+            "note": "Leverage relative to shareholder capital."
+          },
+          {
+            "label": "Interest coverage",
+            "value": 28.1985,
+            "display": "28.2x",
+            "ideal": "8x+",
+            "status": "pass",
+            "points": 3,
+            "max": 3,
+            "note": "Operating profit divided by interest cost."
+          },
+          {
+            "label": "Current ratio",
+            "value": 2.725,
+            "display": "2.73x",
+            "ideal": "1.2x+",
+            "status": "pass",
+            "points": 2,
+            "max": 2,
+            "note": "Short-term liquidity."
+          },
+          {
+            "label": "Debt trend (2 yrs)",
+            "value": 0.3055,
+            "display": "30.6%",
+            "ideal": "Below +10%",
+            "status": "fail",
+            "points": 0,
+            "max": 2,
+            "note": "Debt should not grow faster than the business."
+          }
+        ]
+      },
+      {
+        "name": "Shareholder treatment",
+        "weight": 10,
+        "score": 40,
+        "coverage": 1,
+        "metrics": [
+          {
+            "label": "Share count change (5 yrs)",
+            "value": 0.3554,
+            "display": "35.5%",
+            "ideal": "Flat or falling",
+            "status": "fail",
+            "points": 0,
+            "max": 6,
+            "note": "Dilution quietly transfers your ownership to employees and acquisitions."
+          },
+          {
+            "label": "Buybacks or dividends (years of 5)",
+            "value": 5,
+            "display": "5 of 5",
+            "ideal": "3+",
+            "status": "pass",
+            "points": 4,
+            "max": 4,
+            "note": "Returning cash is a sign of a mature, confident business."
+          }
+        ]
+      },
+      {
+        "name": "Moat / durability",
+        "weight": 10,
+        "score": 55,
+        "coverage": 1,
+        "metrics": [
+          {
+            "label": "Gross margin stability (5-yr std dev)",
+            "value": 0.0182,
+            "display": "1.8 pts",
+            "ideal": "Below 2 pts",
+            "status": "pass",
+            "points": 4,
+            "max": 4,
+            "note": "Stable margins suggest pricing power; swings suggest a commodity."
+          },
+          {
+            "label": "Pricing power (gross margin level)",
+            "value": 0.4952,
+            "display": "49.5%",
+            "ideal": "50%+",
+            "status": "near",
+            "points": 1.5,
+            "max": 3,
+            "note": "Very high gross margin is hard to copy."
+          },
+          {
+            "label": "Scale economics (op margin 20%+ with steady growth)",
+            "value": 0,
+            "display": "10.7%",
+            "ideal": "Yes",
+            "status": "fail",
+            "points": 0,
+            "max": 3,
+            "note": "Margins that hold while growing imply a durable advantage."
+          }
+        ]
+      }
+    ],
+    "redFlags": [
+      "Share count grew 36% over 5 years (heavy dilution)."
+    ],
+    "notes": [
+      "Grade capped at C by a red flag."
+    ],
+    "highlights": [
+      "5-yr revenue CAGR: 28.8%",
+      "Latest year revenue growth: 34.3%",
+      "Growth consistency: 4 of 5 years up",
+      "3-yr EPS CAGR: 46.7%",
+      "Gross margin: 49.5%",
+      "Operating margin trend (3 yrs): 8.9 pts"
+    ],
+    "concerns": [
+      "Return on equity: 7.2% (ideal 15%+)",
+      "Share count change (5 yrs): 35.5% (ideal Flat or falling)",
+      "Scale economics (op margin 20%+ with steady growth): 10.7% (ideal Yes)"
+    ],
+    "dataCoverage": 1,
+    "mode": "semis"
+  },
+  "valuation": {
+    "applicable": true,
+    "score": 13,
+    "label": "Expensive",
+    "multiples": [
+      {
+        "label": "Trailing P/E",
+        "value": 125.07,
+        "display": "125.1x",
+        "ideal": "Below 25x",
+        "status": "fail",
+        "weight": 2,
+        "ownHistoryPercentile": 0.58,
+        "ownHistoryRead": "middle of its own range",
+        "note": "Price divided by the last 12 months of earnings per share."
+      },
+      {
+        "label": "Forward P/E",
+        "value": 30.19,
+        "display": "30.2x",
+        "ideal": "Below 22x",
+        "status": "fail",
+        "weight": 3,
+        "ownHistoryPercentile": null,
+        "ownHistoryRead": null,
+        "note": "Price divided by next year's expected earnings. The most-watched number for a growth stock."
+      },
+      {
+        "label": "PEG (P/E to growth)",
+        "value": 0.53,
+        "display": "0.53x",
+        "ideal": "Below 1.5x",
+        "status": "pass",
+        "weight": 2,
+        "ownHistoryPercentile": null,
+        "ownHistoryRead": null,
+        "note": "Below 1.5x means you pay a fair price for the growth rate."
+      },
+      {
+        "label": "Price / sales",
+        "value": 19.28,
+        "display": "19.3x",
+        "ideal": "Below 6x",
+        "status": "fail",
+        "weight": 2,
+        "ownHistoryPercentile": 0.92,
+        "ownHistoryRead": "most expensive it has been",
+        "note": "Useful when profits are small or volatile."
+      },
+      {
+        "label": "Price / book",
+        "value": 12.81,
+        "display": "12.81x",
+        "ideal": "Below 6x",
+        "status": "fail",
+        "weight": 1,
+        "ownHistoryPercentile": 0.75,
+        "ownHistoryRead": "upper part of its range",
+        "note": "Less relevant outside banks and asset-heavy companies."
+      },
+      {
+        "label": "EV / EBITDA",
+        "value": 78.02,
+        "display": "78.0x",
+        "ideal": "Below 18x",
+        "status": "fail",
+        "weight": 2,
+        "ownHistoryPercentile": null,
+        "ownHistoryRead": null,
+        "note": "Whole-company value versus cash operating profit; ignores capital structure."
+      },
+      {
+        "label": "Price / free cash flow",
+        "value": 119.06,
+        "display": "119.1x",
+        "ideal": "Below 22x",
+        "status": "fail",
+        "weight": 3,
+        "ownHistoryPercentile": 0.75,
+        "ownHistoryRead": "upper part of its range",
+        "note": "What you pay for each dollar of real cash generated."
+      },
+      {
+        "label": "Free-cash-flow yield",
+        "value": 0.0084,
+        "display": "0.8%",
+        "ideal": "4%+",
+        "status": "fail",
+        "weight": 2,
+        "note": "Inverse of P/FCF. Compare with bond yields."
+      },
+      {
+        "label": "Dividend yield",
+        "value": 0,
+        "display": "0.0%",
+        "ideal": "context",
+        "status": "unavailable",
+        "weight": 0,
+        "note": "Income component, if any."
+      }
+    ],
+    "ownHistory": [
+      {
+        "year": "2021-12-25",
+        "price": 143.9,
+        "pe": 55.99,
+        "ps": 10.76,
+        "pb": 23.59,
+        "pfcf": 54.92
+      },
+      {
+        "year": "2022-12-31",
+        "price": 63.96,
+        "pe": 76.14,
+        "ps": 4.26,
+        "pb": 1.84,
+        "pfcf": 32.26
+      },
+      {
+        "year": "2023-12-30",
+        "price": 138.58,
+        "pe": 261.47,
+        "ps": 9.93,
+        "pb": 4.03,
+        "pfcf": 200.89
+      },
+      {
+        "year": "2024-12-28",
+        "price": 125.37,
+        "pe": 125.37,
+        "ps": 7.96,
+        "pb": 3.57,
+        "pfcf": 85.34
+      },
+      {
+        "year": "2025-12-27",
+        "price": 223.47,
+        "pe": 84.33,
+        "ps": 10.55,
+        "pb": 5.8,
+        "pfcf": 54.28
+      }
+    ],
+    "ownHistoryAverage": 0.75,
+    "ownHistoryRead": "upper part of its range",
+    "fairValue": {
+      "low": 302.74,
+      "high": 462.12,
+      "mid": 382.43,
+      "upsideToMid": -0.2839,
+      "methods": [
+        {
+          "method": "Earnings: 17.69 forward EPS x 30-45 P/E for 50% growth",
+          "low": 530.72,
+          "high": 796.08
+        },
+        {
+          "method": "Cash flow: 4.49 FCF/share at a 3.5%-6.0% yield",
+          "low": 74.76,
+          "high": 128.17
+        }
+      ],
+      "read": "Price is above the fair-value range."
+    },
+    "analyst": {
+      "count": 49,
+      "targetMean": 657.74286,
+      "targetLow": 525,
+      "targetHigh": 1250,
+      "recommendation": "strong_buy",
+      "buy": 47,
+      "hold": 7,
+      "sell": 0
+    },
+    "growthUsed": 0.1364
+  },
+  "levels": {
+    "asOf": "2026-11-13",
+    "close": 534.06,
+    "barsWeekly": 262,
+    "barsDaily": 501,
+    "stage": {
+      "stage": 2,
+      "label": "Stage 2: advancing",
+      "reason": "Price above a rising 30-week average."
+    },
+    "movingAverages": {
+      "sma50d": 554.55,
+      "sma200d": 423.12,
+      "slope200d20d": 0.0732,
+      "sma10w": 550,
+      "sma30w": 508.67,
+      "slope30w10w": 0.2676,
+      "sma40w": 438.46,
+      "sma200w": 201.66,
+      "goldenCross": true,
+      "crossedRecently": null
+    },
+    "distanceFrom200d": 0.2622,
+    "distanceFrom40w": 0.218,
+    "momentum": {
+      "rsiWeekly": 55.1,
+      "rsiDaily": 50.4,
+      "macdMonthlyHistogram": 27.375,
+      "macdMonthlyRising": false,
+      "macdMonthlyAboveSignal": true
+    },
+    "relativeStrength": {
+      "m6": 0.1306,
+      "m12": 1.4761
+    },
+    "volume": {
+      "upDownRatio26w": 1.06,
+      "lastWeekVsAverage": 0.38
+    },
+    "range": {
+      "high52": 658.52,
+      "low52": 188.22,
+      "pctFromHigh52": -0.189,
+      "pctAboveLow52": 1.8374,
+      "high3y": 658.52,
+      "low3y": 76.48,
+      "pctFromHigh3y": -0.189
+    },
+    "atrWeekly": 70.18,
+    "atrWeeklyPct": 0.1314,
+    "supports": [
+      {
+        "type": "support",
+        "low": 404.19,
+        "high": 460.34,
+        "center": 432.26,
+        "touches": 2,
+        "strength": 73,
+        "lastTouch": "2026-08-31",
+        "distancePct": -0.1906
+      },
+      {
+        "type": "support",
+        "low": 238.95,
+        "high": 295.09,
+        "center": 267.02,
+        "touches": 2,
+        "strength": 69,
+        "lastTouch": "2026-01-19",
+        "distancePct": -0.5
+      },
+      {
+        "type": "support",
+        "low": 199.23,
+        "high": 255.37,
+        "center": 227.3,
+        "touches": 1,
+        "strength": 36,
+        "lastTouch": "2024-03-04",
+        "distancePct": -0.5744
+      },
+      {
+        "type": "support",
+        "low": 160.61,
+        "high": 216.75,
+        "center": 188.68,
+        "touches": 6,
+        "strength": 100,
+        "lastTouch": "2026-03-02",
+        "distancePct": -0.6467
+      },
+      {
+        "type": "support",
+        "low": 146.23,
+        "high": 202.37,
+        "center": 174.3,
+        "touches": 2,
+        "strength": 61,
+        "lastTouch": "2024-10-07",
+        "distancePct": -0.6736
+      },
+      {
+        "type": "support",
+        "low": 133.85,
+        "high": 190,
+        "center": 161.92,
+        "touches": 2,
+        "strength": 61,
+        "lastTouch": "2024-08-19",
+        "distancePct": -0.6968
+      },
+      {
+        "type": "support",
+        "low": 122.04,
+        "high": 178.18,
+        "center": 150.11,
+        "touches": 4,
+        "strength": 100,
+        "lastTouch": "2025-09-08",
+        "distancePct": -0.7189
+      },
+      {
+        "type": "support",
+        "low": 103.74,
+        "high": 159.88,
+        "center": 131.81,
+        "touches": 4,
+        "strength": 100,
+        "lastTouch": "2025-01-06",
+        "distancePct": -0.7532
+      },
+      {
+        "type": "support",
+        "low": 94.96,
+        "high": 151.11,
+        "center": 123.03,
+        "touches": 4,
+        "strength": 100,
+        "lastTouch": "2025-05-12",
+        "distancePct": -0.7696
+      },
+      {
+        "type": "support",
+        "low": 84.66,
+        "high": 140.81,
+        "center": 112.74,
+        "touches": 2,
+        "strength": 64,
+        "lastTouch": "2025-03-24",
+        "distancePct": -0.7889
+      },
+      {
+        "type": "support",
+        "low": 74.11,
+        "high": 130.26,
+        "center": 102.19,
+        "touches": 6,
+        "strength": 100,
+        "lastTouch": "2023-08-21",
+        "distancePct": -0.8087
+      },
+      {
+        "type": "support",
+        "low": 64.1,
+        "high": 120.25,
+        "center": 92.17,
+        "touches": 3,
+        "strength": 78,
+        "lastTouch": "2023-10-23",
+        "distancePct": -0.8274
+      },
+      {
+        "type": "support",
+        "low": 51.93,
+        "high": 108.07,
+        "center": 80,
+        "touches": 4,
+        "strength": 100,
+        "lastTouch": "2025-04-07",
+        "distancePct": -0.8502
+      },
+      {
+        "type": "support",
+        "low": 43.53,
+        "high": 99.67,
+        "center": 71.6,
+        "touches": 1,
+        "strength": 26,
+        "lastTouch": "2022-07-04",
+        "distancePct": -0.8659
+      },
+      {
+        "type": "support",
+        "low": 31.98,
+        "high": 88.12,
+        "center": 60.05,
+        "touches": 1,
+        "strength": 29,
+        "lastTouch": "2023-01-02",
+        "distancePct": -0.8876
+      },
+      {
+        "type": "support",
+        "low": 26.5,
+        "high": 82.64,
+        "center": 54.57,
+        "touches": 1,
+        "strength": 27,
+        "lastTouch": "2022-10-10",
+        "distancePct": -0.8978
+      }
+    ],
+    "resistances": [
+      {
+        "type": "resistance",
+        "low": 556.66,
+        "high": 612.8,
+        "center": 584.73,
+        "touches": 1,
+        "strength": 50,
+        "lastTouch": "2026-06-29",
+        "distancePct": 0.0949
+      },
+      {
+        "type": "resistance",
+        "low": 630.45,
+        "high": 686.59,
+        "center": 658.52,
+        "touches": 1,
+        "strength": 51,
+        "lastTouch": "2026-10-05",
+        "distancePct": 0.233
+      }
+    ],
+    "inSupportZone": null,
+    "dynamicLevels": [
+      {
+        "label": "50-day SMA",
+        "price": 554.55,
+        "role": "resistance",
+        "distancePct": 0.0384
+      },
+      {
+        "label": "200-day SMA",
+        "price": 423.12,
+        "role": "support",
+        "distancePct": -0.2077
+      },
+      {
+        "label": "30-week SMA",
+        "price": 508.67,
+        "role": "support",
+        "distancePct": -0.0475
+      },
+      {
+        "label": "40-week SMA",
+        "price": 438.46,
+        "role": "support",
+        "distancePct": -0.179
+      },
+      {
+        "label": "200-week SMA",
+        "price": 201.66,
+        "role": "support",
+        "distancePct": -0.6224
+      }
+    ],
+    "fibonacci": {
+      "direction": "retracement of the 3-year advance",
+      "low": 76.48,
+      "high": 658.52,
+      "r236": 521.16,
+      "r382": 436.18,
+      "r500": 367.5,
+      "r618": 298.82,
+      "r786": 201.04
+    },
+    "pivotCount": 47
+  },
+  "entry": {
+    "timingVerdict": "WAIT FOR PULLBACK",
+    "timingScore": 30,
+    "action": "WAIT",
+    "zoneA": {
+      "low": 404.19,
+      "high": 460.34,
+      "basis": "nearest strong support (2 touches, last 2026-08-31)"
+    },
+    "zoneB": {
+      "low": 238.95,
+      "high": 295.09,
+      "basis": "next support (2 touches, last 2026-01-19)"
+    },
+    "reclaim": 584.73,
+    "confirm": 658.52,
+    "breakout": 690.02,
+    "invalidation": 373.84,
+    "rewardRisk": 2.6,
+    "openEndedUpside": false,
+    "upsideToConfirm": 0.3527,
+    "upsideTarget": 584.73,
+    "downsideToInvalidation": -0.1352,
+    "tranches": [
+      {
+        "pct": 0,
+        "when": "now",
+        "why": "price is extended; patience is the edge"
+      },
+      {
+        "pct": 50,
+        "when": "zone A $404.19-$460.34",
+        "why": "first real pullback"
+      },
+      {
+        "pct": 50,
+        "when": "zone B $238.95-$295.09",
+        "why": "deeper pullback"
+      }
+    ],
+    "reasons": [
+      "Price is 26% above the 200-day average: extended.",
+      "Leading the index by 148 points over 12 months."
+    ],
+    "warnings": [
+      "Red flag: Share count grew 36% over 5 years (heavy dilution)."
+    ],
+    "earningsInDays": 80,
+    "capitulation": false
+  },
+  "snapshot": {
+    "high52": 658.52,
+    "low52": 188.22,
+    "beta": 2.542,
+    "dividendYield": 0,
+    "revenueTTM": 45435998208,
+    "fcfTTM": 7357125120,
+    "cash": 15776000000,
+    "debt": 9210999808,
+    "grossMarginTTM": 0.56,
+    "operatingMarginTTM": 0.17820999,
+    "netMarginTTM": 0.16769,
+    "roeTTM": 0.1196,
+    "roaTTM": 0.05895,
+    "revenueGrowthYoY": 0.447,
+    "earningsGrowthYoY": 0.938,
+    "epsEstimateCurrentYear": 8.08438,
+    "epsEstimateNextYear": 17.69068,
+    "revenueGrowthNextYear": 0.83559996,
+    "nextEarningsDate": "2027-02-02",
+    "earningsBeatRate": 1,
+    "analyst": {
+      "count": 49,
+      "targetMean": 657.74286,
+      "targetLow": 525,
+      "targetHigh": 1250,
+      "recommendation": "strong_buy",
+      "buy": 47,
+      "hold": 7,
+      "sell": 0
+    }
+  },
+  "dataQuality": {
+    "financialsSource": "SEC XBRL + Yahoo fallback",
+    "fiscalYears": 10,
+    "firstFiscalYear": "2016-12-31",
+    "latestFiscalYear": "2025-12-27",
+    "weeklyBars": 262,
+    "dailyBars": 501,
+    "benchmarkBars": 262,
+    "metricsUnavailable": [],
+    "warnings": [],
+    "disclaimer": "Research tool, not financial advice. Verify key numbers in the company's filings before investing."
+  }
+}
