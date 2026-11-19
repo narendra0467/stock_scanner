@@ -1,6 +1,6 @@
-# Watchlist status 2026-11-18
+# Watchlist status 2026-11-19
 
 | Symbol | Price | Grade | Timing | Action | Stage | Zone A | vs 200d | Weekly RSI | Alerts |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SOFI | $14.28 | C | TREND REPAIR WATCH | WAIT | Stage 4: declining | $13.01-$14.28 | -17% | 38.2 | - |
-| AMD | $503.41 | B | ACCUMULATE | ACCUMULATE (DCA) | Stage 2 pullback / possible Stage 3 | $413.47-$467.53 | 18% | 51.8 | - |
+| SOFI | $14.11 | C | TREND REPAIR WATCH | WAIT | Stage 4: declining | $13.02-$14.11 | -18% | 37.7 | - |
+| AMD | $530.14 | B | WAIT FOR PULLBACK | WAIT FOR $467.69 | Stage 2: advancing | $413.31-$467.69 | 24% | 54.7 | - |
