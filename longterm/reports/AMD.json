@@ -5,10 +5,10 @@
   "exchange": "NasdaqGS",
   "currency": "USD",
   "benchmark": "SPY",
-  "asOf": "2026-11-20T02:39:11.706Z",
-  "priceDate": "2026-11-19",
-  "price": 489.19,
-  "marketCap": 809641574400,
+  "asOf": "2026-11-21T02:51:27.409Z",
+  "priceDate": "2026-11-20",
+  "price": 424.39,
+  "marketCap": 702393286656,
   "business": {
     "sector": "Technology",
     "industry": "Semiconductors",
@@ -34,9 +34,9 @@
     "businessLabel": "Quality growth / durable business",
     "valuationScore": 21,
     "valuationLabel": "Expensive",
-    "timing": "ACCUMULATE",
-    "timingScore": 65,
-    "action": "ACCUMULATE (DCA)"
+    "timing": "BUY ZONE NOW",
+    "timingScore": 85,
+    "action": "BUY NOW"
   },
   "financials": {
     "source": "SEC XBRL + Yahoo fallback",
@@ -607,8 +607,8 @@
     "multiples": [
       {
         "label": "Trailing P/E",
-        "value": 104.53,
-        "display": "104.5x",
+        "value": 90.68,
+        "display": "90.7x",
         "ideal": "Below 25x",
         "status": "fail",
         "weight": 2,
@@ -618,8 +618,8 @@
       },
       {
         "label": "Forward P/E",
-        "value": 27.73,
-        "display": "27.7x",
+        "value": 24.06,
+        "display": "24.1x",
         "ideal": "Below 22x",
         "status": "near",
         "weight": 3,
@@ -629,8 +629,8 @@
       },
       {
         "label": "PEG (P/E to growth)",
-        "value": 0.47,
-        "display": "0.47x",
+        "value": 0.44,
+        "display": "0.44x",
         "ideal": "Below 1.5x",
         "status": "pass",
         "weight": 2,
@@ -640,8 +640,8 @@
       },
       {
         "label": "Price / sales",
-        "value": 17.82,
-        "display": "17.8x",
+        "value": 15.46,
+        "display": "15.5x",
         "ideal": "Below 6x",
         "status": "fail",
         "weight": 2,
@@ -651,8 +651,8 @@
       },
       {
         "label": "Price / book",
-        "value": 11.73,
-        "display": "11.73x",
+        "value": 10.18,
+        "display": "10.18x",
         "ideal": "Below 6x",
         "status": "fail",
         "weight": 1,
@@ -662,8 +662,8 @@
       },
       {
         "label": "EV / EBITDA",
-        "value": 71.41,
-        "display": "71.4x",
+        "value": 61.86,
+        "display": "61.9x",
         "ideal": "Below 18x",
         "status": "fail",
         "weight": 2,
@@ -673,8 +673,8 @@
       },
       {
         "label": "Price / free cash flow",
-        "value": 110.05,
-        "display": "110.0x",
+        "value": 95.47,
+        "display": "95.5x",
         "ideal": "Below 22x",
         "status": "fail",
         "weight": 3,
@@ -684,8 +684,8 @@
       },
       {
         "label": "Free-cash-flow yield",
-        "value": 0.0091,
-        "display": "0.9%",
+        "value": 0.0105,
+        "display": "1.0%",
         "ideal": "4%+",
         "status": "fail",
         "weight": 2,
@@ -750,7 +750,7 @@
       "high": 793.72,
       "mid": 661.43,
       "blended": false,
-      "upsideToMid": 0.3521,
+      "upsideToMid": 0.5586,
       "methods": [
         {
           "method": "Earnings: 17.64 forward EPS x 30-45 P/E for 50% growth",
@@ -780,280 +780,289 @@
     "growthUsed": 0.1364
   },
   "levels": {
-    "asOf": "2026-11-19",
-    "close": 489.19,
-    "barsWeekly": 263,
+    "asOf": "2026-11-20",
+    "close": 424.39,
+    "barsWeekly": 262,
     "barsDaily": 501,
     "stage": {
-      "stage": 2,
+      "stage": 3,
       "label": "Stage 2 pullback / possible Stage 3",
       "reason": "Price has dipped below a rising 30-week average."
     },
     "movingAverages": {
-      "sma50d": 554.93,
-      "sma200d": 428.63,
-      "slope200d20d": 0.0701,
-      "sma10w": 538.45,
-      "sma30w": 511.46,
-      "slope30w10w": 0.2376,
-      "sma40w": 444.56,
-      "sma200w": 203.51,
+      "sma50d": 553.1,
+      "sma200d": 429.79,
+      "slope200d20d": 0.0689,
+      "sma10w": 525.49,
+      "sma30w": 507.14,
+      "slope30w10w": 0.2272,
+      "sma40w": 441.32,
+      "sma200w": 202.86,
       "goldenCross": true,
       "crossedRecently": null
     },
-    "distanceFrom200d": 0.1413,
-    "distanceFrom40w": 0.1004,
+    "distanceFrom200d": -0.0126,
+    "distanceFrom40w": -0.0384,
     "momentum": {
-      "rsiWeekly": 50.3,
-      "rsiDaily": 45.2,
-      "macdMonthlyHistogram": 24.512,
+      "rsiWeekly": 44.7,
+      "rsiDaily": 38.4,
+      "macdMonthlyHistogram": 20.376,
       "macdMonthlyRising": false,
       "macdMonthlyAboveSignal": true
     },
     "relativeStrength": {
-      "m6": 0.0015,
-      "m12": 1.2013
+      "m6": -0.0896,
+      "m12": 0.9416
     },
     "volume": {
-      "upDownRatio26w": 0.87,
-      "lastWeekVsAverage": 0.54
+      "upDownRatio26w": 0.84,
+      "lastWeekVsAverage": 0.53
     },
     "range": {
       "high52": 658.52,
       "low52": 188.22,
-      "pctFromHigh52": -0.2571,
-      "pctAboveLow52": 1.599,
+      "pctFromHigh52": -0.3555,
+      "pctAboveLow52": 1.2548,
       "high3y": 658.52,
       "low3y": 76.48,
-      "pctFromHigh3y": -0.2571
+      "pctFromHigh3y": -0.3555
     },
-    "atrWeekly": 73.41,
-    "atrWeeklyPct": 0.1501,
+    "atrWeekly": 74.82,
+    "atrWeeklyPct": 0.1763,
     "supports": [
       {
         "type": "support",
-        "low": 411.14,
-        "high": 469.86,
-        "center": 440.5,
-        "touches": 1,
-        "strength": 51,
-        "lastTouch": "2026-08-31",
-        "distancePct": -0.0995
-      },
-      {
-        "type": "support",
-        "low": 383.7,
-        "high": 442.43,
+        "low": 383.14,
+        "high": 442.99,
         "center": 413.07,
         "touches": 2,
         "strength": 74,
         "lastTouch": "2026-11-02",
-        "distancePct": -0.1556
+        "distancePct": -0.0267
       },
       {
         "type": "support",
-        "low": 237.66,
-        "high": 296.38,
+        "low": 237.09,
+        "high": 296.95,
         "center": 267.02,
         "touches": 2,
         "strength": 69,
         "lastTouch": "2026-01-19",
-        "distancePct": -0.4542
+        "distancePct": -0.3708
       },
       {
         "type": "support",
-        "low": 197.94,
-        "high": 256.66,
+        "low": 197.37,
+        "high": 257.23,
         "center": 227.3,
         "touches": 1,
         "strength": 36,
         "lastTouch": "2024-03-04",
-        "distancePct": -0.5354
+        "distancePct": -0.4644
       },
       {
         "type": "support",
-        "low": 159.31,
-        "high": 218.04,
+        "low": 158.75,
+        "high": 218.61,
         "center": 188.68,
         "touches": 6,
         "strength": 100,
         "lastTouch": "2026-03-02",
-        "distancePct": -0.6143
+        "distancePct": -0.5554
       },
       {
         "type": "support",
-        "low": 144.94,
-        "high": 203.66,
+        "low": 144.37,
+        "high": 204.23,
         "center": 174.3,
         "touches": 2,
         "strength": 61,
         "lastTouch": "2024-10-07",
-        "distancePct": -0.6437
+        "distancePct": -0.5893
       },
       {
         "type": "support",
-        "low": 132.56,
-        "high": 191.29,
+        "low": 132,
+        "high": 191.85,
         "center": 161.92,
         "touches": 2,
-        "strength": 61,
+        "strength": 60,
         "lastTouch": "2024-08-19",
-        "distancePct": -0.669
+        "distancePct": -0.6185
       },
       {
         "type": "support",
-        "low": 120.75,
-        "high": 179.48,
+        "low": 120.19,
+        "high": 180.04,
         "center": 150.11,
         "touches": 4,
         "strength": 100,
         "lastTouch": "2025-09-08",
-        "distancePct": -0.6931
+        "distancePct": -0.6463
       },
       {
         "type": "support",
-        "low": 102.45,
-        "high": 161.18,
+        "low": 101.89,
+        "high": 161.74,
         "center": 131.81,
         "touches": 4,
         "strength": 100,
         "lastTouch": "2025-01-06",
-        "distancePct": -0.7305
+        "distancePct": -0.6894
       },
       {
         "type": "support",
-        "low": 93.67,
-        "high": 152.4,
+        "low": 93.11,
+        "high": 152.96,
         "center": 123.03,
         "touches": 4,
         "strength": 100,
         "lastTouch": "2025-05-12",
-        "distancePct": -0.7485
+        "distancePct": -0.7101
       },
       {
         "type": "support",
-        "low": 83.37,
-        "high": 142.1,
+        "low": 82.81,
+        "high": 142.66,
         "center": 112.74,
         "touches": 2,
         "strength": 64,
         "lastTouch": "2025-03-24",
-        "distancePct": -0.7695
+        "distancePct": -0.7344
       },
       {
         "type": "support",
-        "low": 72.82,
-        "high": 131.55,
+        "low": 72.26,
+        "high": 132.11,
         "center": 102.19,
         "touches": 6,
         "strength": 100,
         "lastTouch": "2023-08-21",
-        "distancePct": -0.7911
+        "distancePct": -0.7592
       },
       {
         "type": "support",
-        "low": 62.81,
-        "high": 121.54,
+        "low": 62.25,
+        "high": 122.1,
         "center": 92.17,
         "touches": 3,
         "strength": 78,
         "lastTouch": "2023-10-23",
-        "distancePct": -0.8116
+        "distancePct": -0.7828
       },
       {
         "type": "support",
-        "low": 50.64,
-        "high": 109.36,
+        "low": 50.07,
+        "high": 109.93,
         "center": 80,
         "touches": 4,
         "strength": 100,
         "lastTouch": "2025-04-07",
-        "distancePct": -0.8365
+        "distancePct": -0.8115
       },
       {
         "type": "support",
-        "low": 42.24,
-        "high": 100.96,
+        "low": 41.67,
+        "high": 101.53,
         "center": 71.6,
         "touches": 1,
         "strength": 26,
         "lastTouch": "2022-07-04",
-        "distancePct": -0.8536
+        "distancePct": -0.8313
       },
       {
         "type": "support",
-        "low": 30.69,
-        "high": 89.41,
+        "low": 30.12,
+        "high": 89.98,
         "center": 60.05,
         "touches": 1,
         "strength": 29,
         "lastTouch": "2023-01-02",
-        "distancePct": -0.8772
+        "distancePct": -0.8585
       },
       {
         "type": "support",
-        "low": 25.21,
-        "high": 83.93,
+        "low": 24.64,
+        "high": 84.5,
         "center": 54.57,
         "touches": 1,
         "strength": 27,
         "lastTouch": "2022-10-10",
-        "distancePct": -0.8884
+        "distancePct": -0.8714
       }
     ],
     "resistances": [
       {
         "type": "resistance",
-        "low": 555.37,
-        "high": 614.09,
+        "low": 410.57,
+        "high": 470.43,
+        "center": 440.5,
+        "touches": 1,
+        "strength": 51,
+        "lastTouch": "2026-08-31",
+        "distancePct": 0.038
+      },
+      {
+        "type": "resistance",
+        "low": 554.8,
+        "high": 614.66,
         "center": 584.73,
         "touches": 1,
         "strength": 50,
         "lastTouch": "2026-06-29",
-        "distancePct": 0.1953
+        "distancePct": 0.3778
       },
       {
         "type": "resistance",
-        "low": 629.16,
-        "high": 687.88,
+        "low": 628.59,
+        "high": 688.45,
         "center": 658.52,
         "touches": 1,
         "strength": 51,
         "lastTouch": "2026-10-05",
-        "distancePct": 0.3461
+        "distancePct": 0.5517
       }
     ],
-    "inSupportZone": null,
+    "inSupportZone": {
+      "type": "support",
+      "low": 383.14,
+      "high": 442.99,
+      "center": 413.07,
+      "touches": 2,
+      "strength": 74,
+      "lastTouch": "2026-11-02",
+      "distancePct": -0.0267
+    },
     "dynamicLevels": [
       {
         "label": "50-day SMA",
-        "price": 554.93,
+        "price": 553.1,
         "role": "resistance",
-        "distancePct": 0.1344
+        "distancePct": 0.3033
       },
       {
         "label": "200-day SMA",
-        "price": 428.63,
-        "role": "support",
-        "distancePct": -0.1238
+        "price": 429.79,
+        "role": "resistance",
+        "distancePct": 0.0127
       },
       {
         "label": "30-week SMA",
-        "price": 511.46,
+        "price": 507.14,
         "role": "resistance",
-        "distancePct": 0.0455
+        "distancePct": 0.195
       },
       {
         "label": "40-week SMA",
-        "price": 444.56,
-        "role": "support",
-        "distancePct": -0.0912
+        "price": 441.32,
+        "role": "resistance",
+        "distancePct": 0.0399
       },
       {
         "label": "200-week SMA",
-        "price": 203.51,
+        "price": 202.86,
         "role": "support",
-        "distancePct": -0.584
+        "distancePct": -0.522
       }
     ],
     "fibonacci": {
@@ -1069,51 +1078,52 @@
     "pivotCount": 48
   },
   "entry": {
-    "timingVerdict": "ACCUMULATE",
-    "timingScore": 65,
-    "action": "ACCUMULATE (DCA)",
+    "timingVerdict": "BUY ZONE NOW",
+    "timingScore": 85,
+    "action": "BUY NOW",
     "zoneA": {
-      "low": 411.14,
-      "high": 469.86,
-      "basis": "nearest strong support (1 touches, last 2026-08-31)"
+      "low": 383.14,
+      "high": 442.99,
+      "basis": "tested support zone (2 touches)"
     },
     "zoneB": {
-      "low": 383.7,
-      "high": 442.43,
-      "basis": "next support (2 touches, last 2026-11-02)"
+      "low": 237.09,
+      "high": 296.95,
+      "basis": "next support (2 touches, last 2026-01-19)"
     },
-    "reclaim": 584.73,
-    "confirm": 658.52,
-    "breakout": 691.32,
-    "invalidation": 356.08,
-    "rewardRisk": 1.7,
+    "reclaim": 440.5,
+    "confirm": 584.73,
+    "breakout": 691.89,
+    "invalidation": 327.02,
+    "rewardRisk": 0.3,
     "openEndedUpside": false,
-    "upsideToConfirm": 0.3274,
-    "upsideTarget": 584.73,
-    "downsideToInvalidation": -0.1916,
+    "upsideToConfirm": 0.0664,
+    "upsideTarget": 440.5,
+    "downsideToInvalidation": -0.2083,
     "tranches": [
       {
-        "pct": 34,
-        "when": "now",
-        "why": "trend is healthy"
+        "pct": 50,
+        "when": "now, $383.14-$442.99",
+        "why": "price is in the zone"
       },
       {
-        "pct": 33,
-        "when": "zone A $411.14-$469.86",
-        "why": "first pullback"
+        "pct": 25,
+        "when": "zone B $237.09-$296.95",
+        "why": "if the market gives a deeper dip"
       },
       {
-        "pct": 33,
-        "when": "zone B $383.70-$442.43 or 2 months later",
-        "why": "time or price diversification"
+        "pct": 25,
+        "when": "after the next earnings report or on a weekly close above $440.50",
+        "why": "confirmation"
       }
     ],
     "reasons": [
-      "Healthy Stage 2 uptrend, not extended. Buy in tranches rather than all at once.",
-      "Leading the index by 120 points over 12 months."
+      "Price is inside a tested support zone $383.14-$442.99 (2 touches).",
+      "Price is sitting on a rising 200-day average: the classic long-term pullback entry.",
+      "Leading the index by 94 points over 12 months."
     ],
     "warnings": [],
-    "earningsInDays": 74,
+    "earningsInDays": 73,
     "capitulation": false
   },
   "snapshot": {
@@ -1153,9 +1163,9 @@
     "fiscalYears": 10,
     "firstFiscalYear": "2016-12-31",
     "latestFiscalYear": "2025-12-27",
-    "weeklyBars": 263,
+    "weeklyBars": 262,
     "dailyBars": 501,
-    "benchmarkBars": 263,
+    "benchmarkBars": 262,
     "metricsUnavailable": [],
     "warnings": [],
     "disclaimer": "Research tool, not financial advice. Verify key numbers in the company's filings before investing."

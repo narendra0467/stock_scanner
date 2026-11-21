@@ -1,34 +1,41 @@
 {
-  "updated": "2026-11-20T02:39:12.107Z",
+  "updated": "2026-11-21T02:51:27.810Z",
   "rows": [
     {
       "symbol": "SOFI",
-      "price": 13.53,
+      "price": 12.48,
       "grade": "C",
       "timing": "TREND REPAIR WATCH",
       "action": "WAIT",
       "stage": "Stage 4: declining",
-      "zoneA": "$13.01-$14.45",
-      "from200d": "-21%",
-      "rsiW": 35.9,
+      "zoneA": "$9.68-$11.22",
+      "from200d": "-27%",
+      "rsiW": 33.2,
       "fired": [],
       "suppressed": [],
       "holding": false
     },
     {
       "symbol": "AMD",
-      "price": 489.19,
+      "price": 424.39,
       "grade": "B",
-      "timing": "ACCUMULATE",
-      "action": "ACCUMULATE (DCA)",
+      "timing": "BUY ZONE NOW",
+      "action": "BUY NOW",
       "stage": "Stage 2 pullback / possible Stage 3",
-      "zoneA": "$411.14-$469.86",
-      "from200d": "14%",
-      "rsiW": 50.3,
-      "fired": [],
+      "zoneA": "$383.14-$442.99",
+      "from200d": "-1%",
+      "rsiW": 44.7,
+      "fired": [
+        "buy-zone"
+      ],
       "suppressed": [],
       "holding": false
     }
   ],
-  "alertsSent": []
+  "alertsSent": [
+    {
+      "symbol": "AMD",
+      "rule": "buy-zone"
+    }
+  ]
 }
