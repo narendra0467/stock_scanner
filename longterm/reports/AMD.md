@@ -1,5 +1,5 @@
 # AMD · Advanced Micro Devices, Inc.
-NasdaqGS · Price $413.27 (2026-11-24) · Market cap $683.99B · 52-wk $188.22-$658.52 (-37% from high)
+NasdaqGS · Price $406.03 (2026-11-25) · Market cap $672.01B · 52-wk $188.22-$658.52 (-38% from high)
 
 ```
  BUSINESS VERDICT ........ B  (78/100)  Quality growth / durable business
@@ -81,13 +81,13 @@ Sector: Technology / Semiconductors · Mode: **Semiconductor / hardware** · Key
 ## 4. Valuation: Expensive (13/100)
 | Multiple | Value | Ideal | Status | Vs own history | Note |
 | --- | --- | --- | --- | --- | --- |
-| Trailing P/E | 88.3x | Below 25x | ❌ fail | middle of its own range | Price divided by the last 12 months of earnings per share. |
-| Forward P/E | 23.5x | Below 22x | 🟡 near |  | Price divided by next year's expected earnings. The most-watched number for a growth stock. |
-| PEG (P/E to growth) | 11.99x | Below 1.5x | ❌ fail |  | Below 1.5x means you pay a fair price for the growth rate. |
-| Price / sales | 15.1x | Below 6x | ❌ fail | most expensive it has been | Useful when profits are small or volatile. |
-| Price / book | 9.91x | Below 6x | 🟡 near | upper part of its range | Less relevant outside banks and asset-heavy companies. |
-| EV / EBITDA | 60.2x | Below 18x | ❌ fail |  | Whole-company value versus cash operating profit; ignores capital structure. |
-| Price / free cash flow | 93.0x | Below 22x | ❌ fail | upper part of its range | What you pay for each dollar of real cash generated. |
+| Trailing P/E | 86.8x | Below 25x | ❌ fail | middle of its own range | Price divided by the last 12 months of earnings per share. |
+| Forward P/E | 23.1x | Below 22x | 🟡 near |  | Price divided by next year's expected earnings. The most-watched number for a growth stock. |
+| PEG (P/E to growth) | 12.81x | Below 1.5x | ❌ fail |  | Below 1.5x means you pay a fair price for the growth rate. |
+| Price / sales | 14.8x | Below 6x | ❌ fail | most expensive it has been | Useful when profits are small or volatile. |
+| Price / book | 9.74x | Below 6x | 🟡 near | upper part of its range | Less relevant outside banks and asset-heavy companies. |
+| EV / EBITDA | 59.2x | Below 18x | ❌ fail |  | Whole-company value versus cash operating profit; ignores capital structure. |
+| Price / free cash flow | 91.3x | Below 22x | ❌ fail | upper part of its range | What you pay for each dollar of real cash generated. |
 | Free-cash-flow yield | 1.1% | 4%+ | ❌ fail |  | Inverse of P/FCF. Compare with bond yields. |
 | Dividend yield | 0.0% | context | ⚪ |  | Income component, if any. |
 Historical multiples at fiscal year-ends (price / P/E / P/S / P/B / P/FCF):
@@ -98,58 +98,58 @@ Historical multiples at fiscal year-ends (price / P/E / P/S / P/B / P/FCF):
 | 2023-12-30 | $138.58 | 261.5x | 9.9x | 4.03x | 200.9x |
 | 2024-12-28 | $125.37 | 125.4x | 8.0x | 3.57x | 85.3x |
 | 2025-12-27 | $223.47 | 84.3x | 10.6x | 5.80x | 54.3x |
-**Fair-value range: $528.47 – $792.71** (mid $660.59, 60% vs price). Price is below the fair-value range. Methods disagree sharply, so only the earnings-based range is used; treat it with extra caution.
-- Earnings: 17.62 forward EPS x 30-45 P/E for 50% growth → $528.47–$792.71 (primary)
+**Fair-value range: $528.21 – $792.31** (mid $660.26, 63% vs price). Price is below the fair-value range. Methods disagree sharply, so only the earnings-based range is used; treat it with extra caution.
+- Earnings: 17.61 forward EPS x 30-45 P/E for 50% growth → $528.21–$792.31 (primary)
 - Cash flow: 4.45 FCF/share at a 3.5%-6.0% yield → $74.09–$127.01 (cross-check (not blended))
-Analyst context (not a signal): 49 analysts, mean target $656.21, 48 buy / 6 hold / 0 sell.
+Analyst context (not a signal): 49 analysts, mean target $649.89, 48 buy / 6 hold / 0 sell.
 
 ## 5. Long-term technicals
 ```
  Stage .................. Stage 2 pullback / possible Stage 3 — Price has dipped below a rising 30-week average.
- 50-day / 200-day SMA ... $550.48 / $432.00  (golden cross)
- 200-day slope (20d) .... 6.5%   Distance from 200-day: -4.3%
- 30-wk / 40-wk / 200-wk . $505.38 / $446.37 / $204.44
- Weekly RSI / Daily RSI . 43.8 / 38.7
- Monthly MACD ........... hist 19.667 (falling)
- Rel. strength vs SPY . 6m -8.8% · 12m 84.8%
- Volume up/down (26w) ... 0.88x   Last week vs avg: 0.35x
- 3-yr range ............. $76.48 – $658.52  (-37% from 3-yr high)
+ 50-day / 200-day SMA ... $548.35 / $432.96  (golden cross)
+ 200-day slope (20d) .... 6.3%   Distance from 200-day: -6.2%
+ 30-wk / 40-wk / 200-wk . $504.89 / $446.01 / $204.37
+ Weekly RSI / Daily RSI . 43.2 / 38
+ Monthly MACD ........... hist 19.205 (falling)
+ Rel. strength vs SPY . 6m -10.1% · 12m 81.8%
+ Volume up/down (26w) ... 0.91x   Last week vs avg: 0.39x
+ 3-yr range ............. $76.48 – $658.52  (-38% from 3-yr high)
 ```
 **Support zones (below price)**
 | Zone | Touches | Strength | Last touch | Distance |
 | --- | --- | --- | --- | --- |
-| $237.61 – $296.43 | 2 | 69 | 2026-01-19 | -35.4% |
-| $197.89 – $256.71 | 1 | 36 | 2024-03-04 | -45.0% |
-| $159.27 – $218.09 | 6 | 100 | 2026-03-02 | -54.4% |
-| $144.89 – $203.71 | 2 | 61 | 2024-10-07 | -57.8% |
+| $236.80 – $297.24 | 2 | 69 | 2026-01-19 | -34.2% |
+| $197.08 – $257.52 | 1 | 36 | 2024-03-04 | -44.0% |
+| $158.46 – $218.90 | 6 | 100 | 2026-03-02 | -53.5% |
+| $144.08 – $204.52 | 2 | 61 | 2024-10-07 | -57.1% |
 **Resistance zones (above price)**
 | Zone | Touches | Strength | Last touch | Distance |
 | --- | --- | --- | --- | --- |
-| $402.86 – $461.67 | 2 | 73 | 2026-08-31 | 4.6% |
-| $559.96 – $618.77 | 2 | 74 | 2026-11-09 | 42.6% |
-| $629.11 – $687.93 | 1 | 51 | 2026-10-05 | 59.3% |
-Moving-average levels: 50-day SMA $550.48 (resistance) · 200-day SMA $432.00 (resistance) · 30-week SMA $505.38 (resistance) · 40-week SMA $446.37 (resistance) · 200-week SMA $204.44 (support)
+| $402.05 – $462.48 | 2 | 73 | 2026-08-31 | 6.5% |
+| $559.15 – $619.58 | 2 | 74 | 2026-11-09 | 45.1% |
+| $628.30 – $688.74 | 1 | 51 | 2026-10-05 | 62.2% |
+Moving-average levels: 50-day SMA $548.35 (resistance) · 200-day SMA $432.96 (resistance) · 30-week SMA $504.89 (resistance) · 40-week SMA $446.01 (resistance) · 200-week SMA $204.37 (support)
 Fibonacci (retracement of the 3-year advance): 38.2% $436.18 · 50% $367.50 · 61.8% $298.82
 
 ## 6. Entry plan: ACCUMULATE → **ACCUMULATE (DCA)**
 - Healthy Stage 2 uptrend, not extended. Buy in tranches rather than all at once.
-- Leading the index by 85 points over 12 months.
+- Leading the index by 82 points over 12 months.
 
 | Level | Price | Basis |
 | --- | --- | --- |
-| Buy zone A | $237.61 – $296.43 | nearest strong support (2 touches, last 2026-01-19) |
-| Buy zone B | $159.27 – $218.09 | next support (6 touches, last 2026-03-02) |
+| Buy zone A | $236.80 – $297.24 | nearest strong support (2 touches, last 2026-01-19) |
+| Buy zone B | $158.46 – $218.90 | next support (6 touches, last 2026-03-02) |
 | Next resistance | $432.26 | first overhead level to clear |
-| Second resistance | $446.37 | next level above |
-| Breakout add | $691.37 | above the highest resistance / 52-week high |
-| Invalidation | $289.29 | weekly close below: stop adding, re-check the thesis |
+| Second resistance | $446.01 | next level above |
+| Breakout add | $692.18 | above the highest resistance / 52-week high |
+| Invalidation | $284.22 | weekly close below: stop adding, re-check the thesis |
 **Tranche plan**
 | Size | When | Why |
 | --- | --- | --- |
 | 34% | now | trend is healthy |
-| 33% | zone A $237.61-$296.43 | first pullback |
-| 33% | zone B $159.27-$218.09 or 2 months later | time or price diversification |
-Next earnings: 2027-02-02 (in 69 days). Beat rate 100%.
+| 33% | zone A $236.80-$297.24 | first pullback |
+| 33% | zone B $158.46-$218.90 or 2 months later | time or price diversification |
+Next earnings: 2027-02-02 (in 68 days). Beat rate 100%.
 
 ## 7. Data quality
 Financials: SEC XBRL + Yahoo fallback, 10 fiscal years (2016-12-31 → 2025-12-27). Prices: 263 weekly / 501 daily bars.

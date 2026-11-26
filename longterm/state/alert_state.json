@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T04:37:32.948Z",
+  "updated": "2026-11-26T03:48:08.294Z",
   "symbols": {
     "SOFI": {
       "lastSent": {
@@ -7,7 +7,7 @@
       },
       "lastGrade": "C",
       "lastStage": 4,
-      "lastClose": 12.86,
+      "lastClose": 13.07,
       "lastAbove200d": false,
       "lastTiming": "TREND REPAIR WATCH",
       "lastAction": "WAIT",
@@ -15,7 +15,7 @@
       "flags": {
         "goldenCrossSeen": false
       },
-      "checkedOn": "2026-11-25"
+      "checkedOn": "2026-11-26"
     },
     "AMD": {
       "lastSent": {
@@ -25,7 +25,7 @@
       },
       "lastGrade": "B",
       "lastStage": 2,
-      "lastClose": 413.27,
+      "lastClose": 406.03,
       "lastAbove200d": false,
       "lastTiming": "ACCUMULATE",
       "lastAction": "ACCUMULATE (DCA)",
@@ -33,7 +33,7 @@
       "flags": {
         "goldenCrossSeen": false
       },
-      "checkedOn": "2026-11-25"
+      "checkedOn": "2026-11-26"
     }
   }
 }

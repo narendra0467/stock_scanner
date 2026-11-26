@@ -5,10 +5,10 @@
   "exchange": "NasdaqGS",
   "currency": "USD",
   "benchmark": "SPY",
-  "asOf": "2026-11-25T04:37:31.915Z",
-  "priceDate": "2026-11-24",
-  "price": 12.86,
-  "marketCap": 16690227200,
+  "asOf": "2026-11-26T03:48:06.742Z",
+  "priceDate": "2026-11-25",
+  "price": 13.07,
+  "marketCap": 16962772992,
   "business": {
     "sector": "Financial Services",
     "industry": "Credit Services",
@@ -33,7 +33,7 @@
     "businessGrade": "C",
     "businessScore": 65,
     "businessLabel": "Watch list: promising but unproven",
-    "valuationScore": 91,
+    "valuationScore": 88,
     "valuationLabel": "Attractive",
     "timing": "TREND REPAIR WATCH",
     "timingScore": 20,
@@ -448,13 +448,13 @@
   },
   "valuation": {
     "applicable": true,
-    "score": 91,
+    "score": 88,
     "label": "Attractive",
     "multiples": [
       {
         "label": "Trailing P/E",
-        "value": 23.38,
-        "display": "23.4x",
+        "value": 23.76,
+        "display": "23.8x",
         "ideal": "Below 30x",
         "status": "pass",
         "weight": 3,
@@ -464,8 +464,8 @@
       },
       {
         "label": "Forward P/E",
-        "value": 14.36,
-        "display": "14.4x",
+        "value": 14.6,
+        "display": "14.6x",
         "ideal": "Below 20x",
         "status": "pass",
         "weight": 3,
@@ -475,8 +475,8 @@
       },
       {
         "label": "PEG (P/E to growth)",
-        "value": 4.88,
-        "display": "4.88x",
+        "value": 5.12,
+        "display": "5.12x",
         "ideal": "Below 1.5x",
         "status": "fail",
         "weight": 2,
@@ -486,7 +486,7 @@
       },
       {
         "label": "Price / sales",
-        "value": 3.56,
+        "value": 3.62,
         "display": "3.6x",
         "ideal": "Below 6x",
         "status": "pass",
@@ -497,13 +497,13 @@
       },
       {
         "label": "Price / book",
-        "value": 1.48,
-        "display": "1.48x",
+        "value": 1.5,
+        "display": "1.50x",
         "ideal": "Below 3x",
         "status": "pass",
         "weight": 3,
-        "ownHistoryPercentile": 0.3,
-        "ownHistoryRead": "below its usual range",
+        "ownHistoryPercentile": 0.5,
+        "ownHistoryRead": "middle of its own range",
         "note": "For a bank, book value is the anchor. Higher ROE justifies a higher multiple."
       },
       {
@@ -559,14 +559,14 @@
         "pfcf": null
       }
     ],
-    "ownHistoryAverage": 0.3,
+    "ownHistoryAverage": 0.4,
     "ownHistoryRead": "below its usual range",
     "fairValue": {
       "low": 19.7,
       "high": 28.65,
       "mid": 24.18,
       "blended": false,
-      "upsideToMid": 0.8799,
+      "upsideToMid": 0.8497,
       "methods": [
         {
           "method": "Earnings: 0.90 forward EPS x 22-32 P/E for 47% growth",
@@ -596,8 +596,8 @@
     "growthUsed": 0.3193
   },
   "levels": {
-    "asOf": "2026-11-24",
-    "close": 12.86,
+    "asOf": "2026-11-25",
+    "close": 13.07,
     "barsWeekly": 263,
     "barsDaily": 501,
     "stage": {
@@ -606,187 +606,187 @@
       "reason": "Price below a falling 30-week average."
     },
     "movingAverages": {
-      "sma50d": 15.62,
-      "sma200d": 17.05,
-      "slope200d20d": -0.0489,
-      "sma10w": 14.73,
-      "sma30w": 16.5,
-      "slope30w10w": -0.0455,
-      "sma40w": 16.65,
+      "sma50d": 15.55,
+      "sma200d": 17.01,
+      "slope200d20d": -0.0486,
+      "sma10w": 14.77,
+      "sma30w": 16.51,
+      "slope30w10w": -0.0447,
+      "sma40w": 16.66,
       "sma200w": 13.55,
       "goldenCross": false,
       "crossedRecently": null
     },
-    "distanceFrom200d": -0.2459,
-    "distanceFrom40w": -0.2275,
+    "distanceFrom200d": -0.2318,
+    "distanceFrom40w": -0.2154,
     "momentum": {
-      "rsiWeekly": 35.2,
-      "rsiDaily": 32.8,
-      "macdMonthlyHistogram": -1.202,
+      "rsiWeekly": 36.2,
+      "rsiDaily": 34.9,
+      "macdMonthlyHistogram": -1.189,
       "macdMonthlyRising": false,
       "macdMonthlyAboveSignal": false
     },
     "relativeStrength": {
-      "m6": -0.1723,
-      "m12": -0.5853
+      "m6": -0.1564,
+      "m12": -0.5747
     },
     "volume": {
-      "upDownRatio26w": 0.82,
-      "lastWeekVsAverage": 0.16
+      "upDownRatio26w": 0.84,
+      "lastWeekVsAverage": 0.19
     },
     "range": {
       "high52": 29.86,
-      "low52": 12.41,
-      "pctFromHigh52": -0.5693,
-      "pctAboveLow52": 0.0363,
+      "low52": 11.95,
+      "pctFromHigh52": -0.5623,
+      "pctAboveLow52": 0.0937,
       "high3y": 32.73,
       "low3y": 6.01,
-      "pctFromHigh3y": -0.6071
+      "pctFromHigh3y": -0.6007
     },
-    "atrWeekly": 1.84,
-    "atrWeeklyPct": 0.1434,
+    "atrWeekly": 1.93,
+    "atrWeeklyPct": 0.1475,
     "supports": [
       {
         "type": "support",
-        "low": 10.96,
-        "high": 12.44,
+        "low": 10.93,
+        "high": 12.47,
         "center": 11.7,
         "touches": 1,
         "strength": 32,
         "lastTouch": "2023-07-31",
-        "distancePct": -0.0902
+        "distancePct": -0.1048
       },
       {
         "type": "support",
-        "low": 9.71,
-        "high": 11.19,
+        "low": 9.68,
+        "high": 11.22,
         "center": 10.45,
         "touches": 4,
         "strength": 100,
         "lastTouch": "2023-12-25",
-        "distancePct": -0.1874
+        "distancePct": -0.2005
       },
       {
         "type": "support",
-        "low": 8.54,
-        "high": 10.01,
+        "low": 8.5,
+        "high": 10.04,
         "center": 9.27,
         "touches": 3,
         "strength": 80,
         "lastTouch": "2024-02-26",
-        "distancePct": -0.279
+        "distancePct": -0.2905
       },
       {
         "type": "support",
-        "low": 7.82,
-        "high": 9.3,
+        "low": 7.79,
+        "high": 9.33,
         "center": 8.56,
         "touches": 2,
         "strength": 64,
         "lastTouch": "2025-04-07",
-        "distancePct": -0.3344
+        "distancePct": -0.3451
       },
       {
         "type": "support",
-        "low": 7.3,
-        "high": 8.77,
+        "low": 7.26,
+        "high": 8.8,
         "center": 8.03,
         "touches": 5,
         "strength": 100,
         "lastTouch": "2024-07-15",
-        "distancePct": -0.3753
+        "distancePct": -0.3853
       },
       {
         "type": "support",
-        "low": 6.58,
-        "high": 8.06,
+        "low": 6.55,
+        "high": 8.09,
         "center": 7.32,
         "touches": 2,
         "strength": 59,
         "lastTouch": "2024-06-10",
-        "distancePct": -0.4309
+        "distancePct": -0.44
       },
       {
         "type": "support",
-        "low": 6.05,
-        "high": 7.52,
+        "low": 6.01,
+        "high": 7.55,
         "center": 6.78,
         "touches": 2,
         "strength": 61,
         "lastTouch": "2024-09-09",
-        "distancePct": -0.4726
+        "distancePct": -0.4811
       },
       {
         "type": "support",
-        "low": 5.63,
-        "high": 7.1,
+        "low": 5.59,
+        "high": 7.14,
         "center": 6.37,
         "touches": 6,
         "strength": 100,
         "lastTouch": "2024-08-05",
-        "distancePct": -0.5051
+        "distancePct": -0.513
       },
       {
         "type": "support",
-        "low": 4.38,
-        "high": 5.86,
+        "low": 4.35,
+        "high": 5.89,
         "center": 5.12,
         "touches": 2,
         "strength": 52,
         "lastTouch": "2023-03-13",
-        "distancePct": -0.6019
+        "distancePct": -0.6083
       },
       {
         "type": "support",
-        "low": 4.06,
-        "high": 5.53,
+        "low": 4.02,
+        "high": 5.57,
         "center": 4.8,
         "touches": 2,
         "strength": 49,
         "lastTouch": "2022-10-10",
-        "distancePct": -0.6271
+        "distancePct": -0.6331
       },
       {
         "type": "support",
-        "low": 3.57,
-        "high": 5.05,
+        "low": 3.54,
+        "high": 5.08,
         "center": 4.31,
         "touches": 3,
         "strength": 75,
         "lastTouch": "2023-05-15",
-        "distancePct": -0.6649
+        "distancePct": -0.6702
       }
     ],
     "resistances": [
       {
         "type": "resistance",
-        "low": 12.99,
-        "high": 14.47,
+        "low": 12.96,
+        "high": 14.5,
         "center": 13.73,
         "touches": 2,
         "strength": 73,
         "lastTouch": "2026-10-12",
-        "distancePct": 0.0677
+        "distancePct": 0.0505
       },
       {
         "type": "resistance",
-        "low": 14.14,
-        "high": 15.61,
+        "low": 14.11,
+        "high": 15.65,
         "center": 14.88,
         "touches": 4,
         "strength": 100,
         "lastTouch": "2026-07-27",
-        "distancePct": 0.1569
+        "distancePct": 0.1383
       },
       {
         "type": "resistance",
-        "low": 16.61,
-        "high": 18.08,
+        "low": 16.58,
+        "high": 18.12,
         "center": 17.35,
         "touches": 3,
         "strength": 96,
         "lastTouch": "2026-11-02",
-        "distancePct": 0.3489
+        "distancePct": 0.3272
       },
       {
         "type": "resistance",
@@ -796,70 +796,70 @@
         "touches": 5,
         "strength": 100,
         "lastTouch": "2026-08-24",
-        "distancePct": 0.502
+        "distancePct": 0.4779
       },
       {
         "type": "resistance",
         "low": 23.52,
-        "high": 25.25,
+        "high": 25.28,
         "center": 24.51,
         "touches": 3,
         "strength": 90,
         "lastTouch": "2025-12-15",
-        "distancePct": 0.9059
+        "distancePct": 0.8753
       },
       {
         "type": "resistance",
-        "low": 29.34,
-        "high": 30.82,
+        "low": 29.31,
+        "high": 30.85,
         "center": 30.08,
         "touches": 2,
         "strength": 69,
         "lastTouch": "2026-01-05",
-        "distancePct": 1.339
+        "distancePct": 1.3015
       },
       {
         "type": "resistance",
-        "low": 31.99,
-        "high": 33.47,
+        "low": 31.96,
+        "high": 33.5,
         "center": 32.73,
         "touches": 1,
         "strength": 46,
         "lastTouch": "2025-11-10",
-        "distancePct": 1.5451
+        "distancePct": 1.5042
       }
     ],
     "inSupportZone": null,
     "dynamicLevels": [
       {
         "label": "50-day SMA",
-        "price": 15.62,
+        "price": 15.55,
         "role": "resistance",
-        "distancePct": 0.2148
+        "distancePct": 0.1895
       },
       {
         "label": "200-day SMA",
-        "price": 17.05,
+        "price": 17.01,
         "role": "resistance",
-        "distancePct": 0.3261
+        "distancePct": 0.3017
       },
       {
         "label": "30-week SMA",
-        "price": 16.5,
+        "price": 16.51,
         "role": "resistance",
-        "distancePct": 0.283
+        "distancePct": 0.2634
       },
       {
         "label": "40-week SMA",
-        "price": 16.65,
+        "price": 16.66,
         "role": "resistance",
-        "distancePct": 0.2945
+        "distancePct": 0.2745
       },
       {
         "label": "200-week SMA",
         "price": 13.55,
         "role": "resistance",
-        "distancePct": 0.0538
+        "distancePct": 0.0371
       }
     ],
     "fibonacci": {
@@ -879,28 +879,28 @@
     "timingScore": 20,
     "action": "WAIT",
     "zoneA": {
-      "low": 9.71,
-      "high": 11.19,
+      "low": 9.68,
+      "high": 11.22,
       "basis": "nearest strong support (4 touches, last 2023-12-25)"
     },
     "zoneB": {
-      "low": 8.54,
-      "high": 10.01,
+      "low": 8.5,
+      "high": 10.04,
       "basis": "next support (3 touches, last 2024-02-26)"
     },
     "reclaim": 13.73,
     "confirm": 14.88,
-    "breakout": 33.64,
-    "invalidation": 9,
-    "rewardRisk": 2.3,
+    "breakout": 33.67,
+    "invalidation": 9.15,
+    "rewardRisk": 2.5,
     "openEndedUpside": false,
     "upsideToConfirm": 0.3139,
     "upsideTarget": 13.73,
-    "downsideToInvalidation": -0.1388,
+    "downsideToInvalidation": -0.1244,
     "tranches": [
       {
         "pct": 25,
-        "when": "zone A $9.71-$11.19 only",
+        "when": "zone A $9.68-$11.22 only",
         "why": "starter in a downtrend; accept it may go lower"
       },
       {
@@ -918,15 +918,15 @@
       "Price below a falling 30-week average."
     ],
     "warnings": [
-      "Lagging the index by 59 points over 12 months.",
+      "Lagging the index by 57 points over 12 months.",
       "Red flag: Share count grew 39% over 3 years (heavy dilution)."
     ],
-    "earningsInDays": 65,
+    "earningsInDays": 64,
     "capitulation": false
   },
   "snapshot": {
     "high52": 30.42,
-    "low52": 12.41,
+    "low52": 11.95,
     "beta": 2.241,
     "dividendYield": 0,
     "revenueTTM": 4686398976,
