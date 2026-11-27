@@ -149,7 +149,7 @@ Fibonacci (retracement of the 3-year advance): 38.2% $436.18 · 50% $367.50 · 6
 | 34% | now | trend is healthy |
 | 33% | zone A $236.80-$297.24 | first pullback |
 | 33% | zone B $158.46-$218.90 or 2 months later | time or price diversification |
-Next earnings: 2027-02-02 (in 68 days). Beat rate 100%.
+Next earnings: 2027-02-02 (in 67 days). Beat rate 100%.
 
 ## 7. Data quality
 Financials: SEC XBRL + Yahoo fallback, 10 fiscal years (2016-12-31 → 2025-12-27). Prices: 263 weekly / 501 daily bars.

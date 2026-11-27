@@ -1,4 +1,4 @@
-# Watchlist status 2026-11-26
+# Watchlist status 2026-11-27
 
 | Symbol | Price | Grade | Timing | Action | Stage | Zone A | vs 200d | Weekly RSI | Alerts |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

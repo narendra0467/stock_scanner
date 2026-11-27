@@ -92,7 +92,7 @@ Historical multiples at fiscal year-ends (price / P/E / P/S / P/B / P/FCF):
 **Fair-value range: $19.70 – $28.65** (mid $24.18, 85% vs price). Price is below the fair-value range. Methods disagree sharply, so only the earnings-based range is used; treat it with extra caution.
 - Earnings: 0.90 forward EPS x 22-32 P/E for 47% growth → $19.70–$28.65 (primary)
 - Book value: 8.71 BVPS x 0.7-1.1 P/B for 7% ROE → $6.40–$9.15 (cross-check (not blended))
-Analyst context (not a signal): 23 analysts, mean target $20.67, 12 buy / 9 hold / 4 sell.
+Analyst context (not a signal): 22 analysts, mean target $20.56, 11 buy / 9 hold / 4 sell.
 
 ## 5. Long-term technicals
 ```
@@ -103,7 +103,7 @@ Analyst context (not a signal): 23 analysts, mean target $20.67, 12 buy / 9 hold
  Weekly RSI / Daily RSI . 36.2 / 34.9
  Monthly MACD ........... hist -1.189 (falling)
  Rel. strength vs SPY . 6m -15.6% · 12m -57.5%
- Volume up/down (26w) ... 0.84x   Last week vs avg: 0.19x
+ Volume up/down (26w) ... 0.83x   Last week vs avg: 0.19x
  3-yr range ............. $6.01 – $32.73  (-60% from 3-yr high)
 ```
 **Support zones (below price)**
@@ -141,7 +141,7 @@ Fibonacci (retracement of the 3-year advance): 38.2% $22.52 · 50% $19.37 · 61.
 | 25% | weekly close above $13.73 | trend repair begins |
 | 50% | weekly close above $14.88 | trend confirmed |
 From zone A midpoint: -12% to invalidation vs 31% to the next upside level → reward/risk 2.5:1.
-Next earnings: 2027-01-29 (in 64 days). Beat rate 75%.
+Next earnings: 2027-01-29 (in 63 days). Beat rate 75%.
 
 ## 7. Data quality
 Financials: SEC XBRL + Yahoo fallback, 4 fiscal years (2022-12-31 → 2025-12-31). Prices: 263 weekly / 501 daily bars.

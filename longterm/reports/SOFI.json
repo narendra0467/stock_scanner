@@ -5,7 +5,7 @@
   "exchange": "NasdaqGS",
   "currency": "USD",
   "benchmark": "SPY",
-  "asOf": "2026-11-26T03:48:06.742Z",
+  "asOf": "2026-11-27T03:49:06.443Z",
   "priceDate": "2026-11-25",
   "price": 13.07,
   "marketCap": 16962772992,
@@ -584,12 +584,12 @@
       "read": "Price is below the fair-value range. Methods disagree sharply, so only the earnings-based range is used; treat it with extra caution."
     },
     "analyst": {
-      "count": 23,
-      "targetMean": 20.66522,
+      "count": 22,
+      "targetMean": 20.55909,
       "targetLow": 12,
       "targetHigh": 30,
-      "recommendation": "buy",
-      "buy": 12,
+      "recommendation": "hold",
+      "buy": 11,
       "hold": 9,
       "sell": 4
     },
@@ -631,7 +631,7 @@
       "m12": -0.5747
     },
     "volume": {
-      "upDownRatio26w": 0.84,
+      "upDownRatio26w": 0.83,
       "lastWeekVsAverage": 0.19
     },
     "range": {
@@ -921,7 +921,7 @@
       "Lagging the index by 57 points over 12 months.",
       "Red flag: Share count grew 39% over 3 years (heavy dilution)."
     ],
-    "earningsInDays": 64,
+    "earningsInDays": 63,
     "capitulation": false
   },
   "snapshot": {
@@ -942,16 +942,16 @@
     "earningsGrowthYoY": 0.644,
     "epsEstimateCurrentYear": 0.60944,
     "epsEstimateNextYear": 0.89538,
-    "revenueGrowthNextYear": 0.2705,
+    "revenueGrowthNextYear": 0.27040002,
     "nextEarningsDate": "2027-01-29",
     "earningsBeatRate": 0.75,
     "analyst": {
-      "count": 23,
-      "targetMean": 20.66522,
+      "count": 22,
+      "targetMean": 20.55909,
       "targetLow": 12,
       "targetHigh": 30,
-      "recommendation": "buy",
-      "buy": 12,
+      "recommendation": "hold",
+      "buy": 11,
       "hold": 9,
       "sell": 4
     }
