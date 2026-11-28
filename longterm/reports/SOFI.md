@@ -1,13 +1,13 @@
 # SOFI · SoFi Technologies, Inc.
-NasdaqGS · Price $13.07 (2026-11-25) · Market cap $16.96B · 52-wk $11.95-$29.86 (-56% from high)
+NasdaqGS · Price $13.37 (2026-11-27) · Market cap $17.35B · 52-wk $11.95-$29.86 (-55% from high)
 
 ```
  BUSINESS VERDICT ........ C  (65/100)  Watch list: promising but unproven
- VALUATION ............... Attractive (88/100)
+ VALUATION ............... Attractive (85/100)
  PRICE / TIMING .......... TREND REPAIR WATCH  (Stage 4: declining)
  COMBINED ACTION ......... WAIT
 ```
-> ⚠ Lagging the index by 57 points over 12 months.
+> ⚠ Lagging the index by 58 points over 12 months.
 > ⚠ Red flag: Share count grew 39% over 3 years (heavy dilution).
 
 ## 1. The business
@@ -72,14 +72,14 @@ Sector: Financial Services / Credit Services · Mode: **Bank / lender / fintech*
 | Pricing power (gross margin level) | n/a (bank) | n/a | ⚪ unavailable | Very high gross margin is hard to copy. |
 | Scale economics (op margin 20%+ with steady growth) | 19.4% | Yes | 🟡 near | Margins that hold while growing imply a durable advantage. |
 
-## 4. Valuation: Attractive (88/100)
+## 4. Valuation: Attractive (85/100)
 | Multiple | Value | Ideal | Status | Vs own history | Note |
 | --- | --- | --- | --- | --- | --- |
-| Trailing P/E | 23.8x | Below 30x | ✅ pass |  | Price divided by the last 12 months of earnings per share. |
-| Forward P/E | 14.6x | Below 20x | ✅ pass |  | Price divided by next year's expected earnings. The most-watched number for a growth stock. |
+| Trailing P/E | 24.3x | Below 30x | ✅ pass |  | Price divided by the last 12 months of earnings per share. |
+| Forward P/E | 14.9x | Below 20x | ✅ pass |  | Price divided by next year's expected earnings. The most-watched number for a growth stock. |
 | PEG (P/E to growth) | 5.12x | Below 1.5x | ❌ fail |  | Below 1.5x means you pay a fair price for the growth rate. |
-| Price / sales | 3.6x | Below 6x | ✅ pass | below its usual range | Useful when profits are small or volatile. |
-| Price / book | 1.50x | Below 3x | ✅ pass | middle of its own range | For a bank, book value is the anchor. Higher ROE justifies a higher multiple. |
+| Price / sales | 3.7x | Below 6x | ✅ pass | middle of its own range | Useful when profits are small or volatile. |
+| Price / book | 1.53x | Below 3x | ✅ pass | middle of its own range | For a bank, book value is the anchor. Higher ROE justifies a higher multiple. |
 | Free-cash-flow yield | n/a | 4%+ | ⚪ |  | Inverse of P/FCF. Compare with bond yields. |
 | Dividend yield | 0.0% | context | ⚪ |  | Income component, if any. |
 Historical multiples at fiscal year-ends (price / P/E / P/S / P/B / P/FCF):
@@ -89,7 +89,7 @@ Historical multiples at fiscal year-ends (price / P/E / P/S / P/B / P/FCF):
 | 2023-12-31 | $8.22 | n/a | 3.7x | 1.48x | n/a |
 | 2024-12-31 | $14.84 | 38.0x | 6.1x | 2.50x | n/a |
 | 2025-12-31 | $27.46 | 70.4x | 9.5x | 3.28x | n/a |
-**Fair-value range: $19.70 – $28.65** (mid $24.18, 85% vs price). Price is below the fair-value range. Methods disagree sharply, so only the earnings-based range is used; treat it with extra caution.
+**Fair-value range: $19.70 – $28.65** (mid $24.18, 81% vs price). Price is below the fair-value range. Methods disagree sharply, so only the earnings-based range is used; treat it with extra caution.
 - Earnings: 0.90 forward EPS x 22-32 P/E for 47% growth → $19.70–$28.65 (primary)
 - Book value: 8.71 BVPS x 0.7-1.1 P/B for 7% ROE → $6.40–$9.15 (cross-check (not blended))
 Analyst context (not a signal): 22 analysts, mean target $20.56, 11 buy / 9 hold / 4 sell.
@@ -97,30 +97,30 @@ Analyst context (not a signal): 22 analysts, mean target $20.56, 11 buy / 9 hold
 ## 5. Long-term technicals
 ```
  Stage .................. Stage 4: declining — Price below a falling 30-week average.
- 50-day / 200-day SMA ... $15.55 / $17.01  (death cross)
- 200-day slope (20d) .... -4.9%   Distance from 200-day: -23.2%
- 30-wk / 40-wk / 200-wk . $16.51 / $16.66 / $13.55
- Weekly RSI / Daily RSI . 36.2 / 34.9
- Monthly MACD ........... hist -1.189 (falling)
- Rel. strength vs SPY . 6m -15.6% · 12m -57.5%
- Volume up/down (26w) ... 0.83x   Last week vs avg: 0.19x
- 3-yr range ............. $6.01 – $32.73  (-60% from 3-yr high)
+ 50-day / 200-day SMA ... $15.48 / $16.98  (death cross)
+ 200-day slope (20d) .... -4.8%   Distance from 200-day: -21.3%
+ 30-wk / 40-wk / 200-wk . $16.53 / $16.67 / $13.56
+ Weekly RSI / Daily RSI . 37.6 / 38
+ Monthly MACD ........... hist -1.169 (falling)
+ Rel. strength vs SPY . 6m -15.3% · 12m -58.1%
+ Volume up/down (26w) ... 0.81x   Last week vs avg: 0.08x
+ 3-yr range ............. $6.01 – $32.73  (-59% from 3-yr high)
 ```
 **Support zones (below price)**
 | Zone | Touches | Strength | Last touch | Distance |
 | --- | --- | --- | --- | --- |
-| $10.93 – $12.47 | 1 | 32 | 2023-07-31 | -10.5% |
-| $9.68 – $11.22 | 4 | 100 | 2023-12-25 | -20.1% |
-| $8.50 – $10.04 | 3 | 80 | 2024-02-26 | -29.0% |
-| $7.79 – $9.33 | 2 | 64 | 2025-04-07 | -34.5% |
+| $10.95 – $12.45 | 1 | 32 | 2023-07-31 | -12.5% |
+| $9.70 – $11.20 | 4 | 100 | 2023-12-25 | -21.8% |
+| $8.52 – $10.02 | 3 | 80 | 2024-02-26 | -30.6% |
+| $7.81 – $9.31 | 2 | 64 | 2025-04-07 | -36.0% |
 **Resistance zones (above price)**
 | Zone | Touches | Strength | Last touch | Distance |
 | --- | --- | --- | --- | --- |
-| $12.96 – $14.50 | 2 | 73 | 2026-10-12 | 5.1% |
-| $14.11 – $15.65 | 4 | 100 | 2026-07-27 | 13.8% |
-| $16.58 – $18.12 | 3 | 96 | 2026-11-02 | 32.7% |
-| $18.42 – $20.13 | 5 | 100 | 2026-08-24 | 47.8% |
-Moving-average levels: 50-day SMA $15.55 (resistance) · 200-day SMA $17.01 (resistance) · 30-week SMA $16.51 (resistance) · 40-week SMA $16.66 (resistance) · 200-week SMA $13.55 (resistance)
+| $12.98 – $14.48 | 2 | 73 | 2026-10-12 | 2.7% |
+| $14.13 – $15.63 | 4 | 100 | 2026-07-27 | 11.3% |
+| $16.60 – $18.09 | 3 | 96 | 2026-11-02 | 29.7% |
+| $18.42 – $20.13 | 5 | 100 | 2026-08-24 | 44.5% |
+Moving-average levels: 50-day SMA $15.48 (resistance) · 200-day SMA $16.98 (resistance) · 30-week SMA $16.53 (resistance) · 40-week SMA $16.67 (resistance) · 200-week SMA $13.56 (resistance)
 Fibonacci (retracement of the 3-year advance): 38.2% $22.52 · 50% $19.37 · 61.8% $16.22
 
 ## 6. Entry plan: TREND REPAIR WATCH → **WAIT**
@@ -128,22 +128,22 @@ Fibonacci (retracement of the 3-year advance): 38.2% $22.52 · 50% $19.37 · 61.
 
 | Level | Price | Basis |
 | --- | --- | --- |
-| Buy zone A | $9.68 – $11.22 | nearest strong support (4 touches, last 2023-12-25) |
-| Buy zone B | $8.50 – $10.04 | next support (3 touches, last 2024-02-26) |
-| Reclaim level | $13.73 | first sign the trend is repairing |
-| Confirmation | $14.88 | trend confirmed |
-| Breakout add | $33.67 | above the highest resistance / 52-week high |
-| Invalidation | $9.15 | weekly close below: stop adding, re-check the thesis |
+| Buy zone A | $9.70 – $11.20 | nearest strong support (4 touches, last 2023-12-25) |
+| Buy zone B | $8.52 – $10.02 | next support (3 touches, last 2024-02-26) |
+| Reclaim level | $14.88 | first sign the trend is repairing |
+| Confirmation | $16.67 | trend confirmed |
+| Breakout add | $33.65 | above the highest resistance / 52-week high |
+| Invalidation | $9.36 | weekly close below: stop adding, re-check the thesis |
 **Tranche plan**
 | Size | When | Why |
 | --- | --- | --- |
-| 25% | zone A $9.68-$11.22 only | starter in a downtrend; accept it may go lower |
-| 25% | weekly close above $13.73 | trend repair begins |
-| 50% | weekly close above $14.88 | trend confirmed |
-From zone A midpoint: -12% to invalidation vs 31% to the next upside level → reward/risk 2.5:1.
-Next earnings: 2027-01-29 (in 63 days). Beat rate 75%.
+| 25% | zone A $9.70-$11.20 only | starter in a downtrend; accept it may go lower |
+| 25% | weekly close above $14.88 | trend repair begins |
+| 50% | weekly close above $16.67 | trend confirmed |
+From zone A midpoint: -10% to invalidation vs 42% to the next upside level → reward/risk 4.1:1.
+Next earnings: 2027-01-29 (in 62 days). Beat rate 75%.
 
 ## 7. Data quality
-Financials: SEC XBRL + Yahoo fallback, 4 fiscal years (2022-12-31 → 2025-12-31). Prices: 263 weekly / 501 daily bars.
+Financials: SEC XBRL + Yahoo fallback, 4 fiscal years (2022-12-31 → 2025-12-31). Prices: 262 weekly / 500 daily bars.
 Unavailable metrics: 5-yr revenue CAGR, 3-yr net income CAGR, Pricing power (gross margin level).
 _Research tool, not financial advice. Verify key numbers in the company's filings before investing._
